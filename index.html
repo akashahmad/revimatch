@@ -1,0 +1,2155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revimatch</title>
+    <!-- custom css style link -->
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootsrap 4 links -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- section1 and 2 starts from here -->
+    <div>
+      <div class="section1-container py-3">
+        <div class="container px-2 px-lg-0 px-xl-0">
+          <!-- header -->
+          <div
+            class="
+              bg-white
+              shadow
+              header-container
+              py-3
+              px-2 px-lg-4
+              d-flex
+              justify-content-between
+            "
+          >
+            <!-- left side -->
+            <div class="left-side d-flex align-items-center">
+              <!-- logo -->
+              <div>
+                <img src="./assets/images/revimatch_logo.png" alt="" />
+              </div>
+              <!-- navigation links -->
+              <div class="d-none d-lg-block d-xl-block">
+                <ul class="m-0 list-unstyled lists-container d-flex px-4">
+                  <li class="active-link">Find an Expert</li>
+                  <li class="inActive-link">that's how it works</li>
+                  <li class="inActive-link">Guides</li>
+                  <li class="inActive-link">About Revimatch</li>
+                  <li class="inActive-link">Partners</li>
+                </ul>
+              </div>
+            </div>
+            <!-- right side -->
+            <div class="d-flex right-side">
+              <div class="px-3 d-none d-lg-block d-xl-block">
+                <button class="active-button px-4 py-2 br-radius7">
+                  Get Free quote
+                </button>
+              </div>
+              <div class="d-none d-lg-block d-xl-block">
+                <button class="inActive-button px-4 py-2 br-radius7">
+                  Get a call
+                </button>
+              </div>
+              <div class="d-block d-lg-none d-xl-none">
+                <span
+                  style="font-size: 30px; cursor: pointer"
+                  onclick="openNav()"
+                  >&#9776;</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- mobile menu -->
+          <!-- navigaton -->
+          <div class="mobile-menu-container">
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <a href="#">Find an Expert</a>
+              <a href="#">that's how it works</a>
+              <a href="#">Guides</a>
+              <a href="#">About Revimatch</a>
+              <a href="#">Partners</a>
+              <div class="py-2 d-flex justify-content-center">
+                <div class="col-10 px-0">
+                  <button class="inActive-button px-4 py-2 br-radius7 w-100">
+                    Get a call
+                  </button>
+                </div>
+              </div>
+              <div class="py-2 d-flex justify-content-center">
+                <div class="col-10 px-0">
+                  <button class="active-button px-4 py-2 br-radius7 w-100">
+                    Get Free quote
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mobile navigation ends here -->
+          <div
+            class="
+              d-flex
+              justify-content-center
+              flex-column flex-lg-row flex-xl-row
+              justify-content-lg-around justify-content-xl-around
+              py-5
+              flex-column-reverse
+              section1-body-container
+            "
+          >
+            <!-- left side -->
+            <div
+              class="
+                section1-body-container
+                col-12 col-lg-5 col-xl-5
+                d-flex
+                flex-column
+                align-items-center
+                justify-content-center
+                py-2 py-lg-5 py-xl-5
+              "
+            >
+              <div>
+                <!-- title -->
+                <h2 class="font-weight-bold dark-blue">
+                  Get 3 free offers on accountants and bookkeeping is
+                </h2>
+                <!--checked list -->
+                <div class="py-5 px-2">
+                  <div class="d-flex">
+                    <img
+                      src="./assets/images/Group.png"
+                      class="h-22px"
+                      alt=""
+                    />
+                    <p class="px-3 fs-15 dark-blue font-weight-bold">
+                      Submit your query
+                    </p>
+                  </div>
+                  <div class="d-flex">
+                    <img
+                      src="./assets/images/Group.png"
+                      class="h-22px"
+                      alt=""
+                    />
+                    <p class="px-3 fs-15 dark-blue font-weight-bold">
+                      Choose the candidate you prefer
+                    </p>
+                  </div>
+                  <div class="d-flex">
+                    <img
+                      src="./assets/images/Group.png"
+                      class="h-22px"
+                      alt=""
+                    />
+                    <p class="px-3 fs-15 dark-blue font-weight-bold">
+                      We match you with up to 3 candidates
+                    </p>
+                  </div>
+                </div>
+                <!-- checkboxes -->
+                <div
+                  class="
+                    d-flex
+                    flex-column flex-lg-row flex-xl-row
+                    justify-content-center
+                    justify-content-lg-start
+                    justify-content-lg-start
+                  "
+                >
+                  <div
+                    class="
+                      bg-white
+                      col-12 col-lg-8 col-xl-8
+                      checkboxes-lists
+                      px-3
+                      py-3
+                      px-lg-4
+                      py-lg-4
+                    "
+                  >
+                    <h6 class="m-0 fs-17 light-blue">I am looking for</h6>
+                    <!-- checkboxes -->
+                    <div class="pt-4">
+                      <div class="form-check py-1 d-flex">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="exampleRadios"
+                          id="exampleRadios1"
+                          value="option1"
+                          checked
+                        />
+                        <label
+                          class="form-check-label fs-15 primary"
+                          for="exampleRadios1"
+                        >
+                          <span
+                            ><img
+                              src="./assets/images/user.png"
+                              alt=""
+                              class="px-3 h-15px"
+                          /></span>
+                          Accountant
+                        </label>
+                      </div>
+                      <div class="form-check py-2 d-flex">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="exampleRadios"
+                          id="exampleRadios1"
+                          value="option1"
+                        />
+                        <label
+                          class="form-check-label fs-15 primary"
+                          for="exampleRadios1"
+                        >
+                          <span
+                            ><img
+                              src="./assets/images/user.png"
+                              alt=""
+                              class="px-3 h-15px"
+                          /></span>
+                          Accountant
+                        </label>
+                      </div>
+                      <div class="form-check py-1 d-flex">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="exampleRadios"
+                          id="exampleRadios1"
+                          value="option1"
+                        />
+                        <label
+                          class="form-check-label fs-15 primary"
+                          for="exampleRadios1"
+                        >
+                          <span
+                            ><img
+                              src="./assets/images/gavel.png"
+                              alt=""
+                              class="px-3 h-15px"
+                          /></span>
+                          Lawyer
+                        </label>
+                      </div>
+                      <div class="form-check py-2 d-flex">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="exampleRadios"
+                          id="exampleRadios1"
+                          value="option1"
+                        />
+                        <label
+                          class="form-check-label fs-15 primary"
+                          for="exampleRadios1"
+                        >
+                          <span
+                            ><img
+                              src="./assets/images/gavel.png"
+                              alt=""
+                              class="px-3 h-15px"
+                          /></span>
+                          Lawyer
+                        </label>
+                      </div>
+                      <div class="form-check py-2 d-flex">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="exampleRadios"
+                          id="exampleRadios1"
+                          value="option1"
+                        />
+                        <label
+                          class="form-check-label fs-15 primary"
+                          for="exampleRadios1"
+                        >
+                          <span
+                            ><img
+                              src="./assets/images/request.png"
+                              alt=""
+                              class="px-3 h-15px"
+                          /></span>
+                          I have doubts
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- button -->
+                  <div
+                    class="
+                      col-12
+                      d-flex
+                      justify-content-center
+                      col-lg-4 col-xl-4
+                      py-3 py-lg-0 py-xl-0
+                      px-2
+                    "
+                  >
+                    <button
+                      class="
+                        active-button
+                        br-radius35
+                        px-4
+                        py-3
+                        h-fitContent
+                        w-100
+                      "
+                    >
+                      Get 3 offers
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- right side -->
+            <div
+              class="
+                right-side
+                col-12 col-lg-5 col-xl-5
+                d-flex
+                justify-content-center
+              "
+            >
+              <img src="./assets/images/im.png" class="h-fitContent" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-4 px-2 position-relative">
+        <div class="section2-container">
+          <div class="bg-white py-4 px-3 company-deals">
+            <!-- title -->
+            <div class="title-container">
+              <h3
+                class="
+                  dark-blue2
+                  py-0 py-lg-4 py-xl-4
+                  m-0
+                  fs-50
+                  font-weight-bold
+                  text-center
+                "
+              >
+                Get Deals from 1500+ Companies
+              </h3>
+            </div>
+            <div class="py-5">
+              <p class="dark-blue2 m-0 fs-17 font-weight-bold text-center">
+                Revimatch collaborates with more than 1500 accountants and
+                bookkeepers.⭐
+              </p>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center">
+              <div class="px-4 py-2">
+                <img
+                  src="./assets/images/Group-468@3x.png"
+                  alt=""
+                  class="h-50px"
+                />
+              </div>
+              <div class="px-4 py-2">
+                <img
+                  src="./assets/images/Group-469@3x.png"
+                  alt=""
+                  class="h-50px"
+                />
+              </div>
+              <div class="px-4 py-2">
+                <img
+                  src="./assets/images/Group-470@3x.png"
+                  alt=""
+                  class="h-50px"
+                />
+              </div>
+              <div class="px-4 py-2">
+                <img
+                  src="./assets/images/Group-471@3x.png"
+                  alt=""
+                  class="h-50px"
+                />
+              </div>
+              <div class="px-4 py-2">
+                <img
+                  src="./assets/images/Group-472@3x.png"
+                  alt=""
+                  class="h-50px"
+                />
+              </div>
+              <div class="px-4 py-2">
+                <img
+                  src="./assets/images/Group-473@3x.png"
+                  alt=""
+                  class="h-50px"
+                />
+              </div>
+              <div class="px-4 py-2">
+                <img
+                  src="./assets/images/Group-474@3x.png"
+                  alt=""
+                  class="h-50px"
+                />
+              </div>
+              <div class="px-4 py-2">
+                <img
+                  src="./assets/images/Group-475@3x.png"
+                  alt=""
+                  class="h-50px"
+                />
+              </div>
+            </div>
+            <div class="d-flex justify-content-center pt-4">
+              <div class="col-12 col-lg-9 col-xl-9 d-flex px-3">
+                <img
+                  src="./assets/images/Screenshot_2@3x.png"
+                  class="w-100"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section3 starts from here -->
+    <div class="container py-4 position-relative">
+      <div class="section3">
+        <!-- title -->
+        <div class="text-center">
+          <h3 class="fs-50 font-weight-bold">That is how it works</h3>
+        </div>
+        <div class="col-12 d-flex justify-content-center py-5">
+          <div
+            class="
+              contact-description
+              col-12 col-lg-10 col-lg-10
+              py-0
+              px-0
+              d-flex
+              flex-column flex-lg-row flex-xl-row
+            "
+          >
+            <!-- left side -->
+            <div class="col-12 col-lg-6 col-xl-6 left-side px-0">
+              <!-- 1st -->
+              <div class="common-box px-3">
+                <div class="py-4">
+                  <h6 class="m-0 dark-blue2 font-weight-bold py-2">
+                    Fill out the form
+                  </h6>
+                  <p class="darkgray-color m-0 py-2">
+                    Tell us briefly what your task consists of so we can prepare
+                  </p>
+                </div>
+              </div>
+              <!-- 2nd -->
+              <div class="common-box px-3">
+                <div class="py-4">
+                  <h6 class="m-0 dark-blue2 font-weight-bold py-2">
+                    We will contact you
+                  </h6>
+                  <p class="darkgray-color m-0 py-2">
+                    We will contact you by phone to clarify your task so that we
+                    can help you in the best possible way
+                  </p>
+                </div>
+              </div>
+              <!-- 3rd -->
+              <div class="common-box px-3">
+                <div class="py-4">
+                  <h6 class="m-0 dark-blue2 font-weight-bold py-2">
+                    You will receive 3 offers
+                  </h6>
+                  <p class="darkgray-color m-0 py-2">
+                    The 3 candidates will give you a tailored quote on your
+                    assignment
+                  </p>
+                </div>
+              </div>
+              <!-- 4th -->
+              <div class="common-box px-3">
+                <div class="py-4 active-box-border">
+                  <h6 class="m-0 primary font-weight-bold py-2">
+                    Choose your solution
+                  </h6>
+                  <p class="darkgray-color text-secondary m-0 py-2">
+                    All that is left is to choose the solution you think is best
+                    for you
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right side  -->
+            <div
+              class="
+                right-side
+                col-12 col-lg-6 col-xl-6
+                left-side
+                px-0
+                d-flex
+                flex-column
+                justify-content-center
+                align-items-center
+                py-3
+                common-box
+                bg-white
+              "
+            >
+              <div class="content-img">
+                <img
+                  src="./assets/images/Image@3x.png"
+                  class="h-290px"
+                  alt=""
+                />
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center py-5"
+              >
+                <div>
+                  <img
+                    src="./assets/images/Group-32@3x.png"
+                    class="h-50px"
+                    alt=""
+                  />
+                </div>
+                <div class="px-3">
+                  <p class="primary f-28 m-0">04</p>
+                </div>
+                <div>
+                  <img
+                    src="./assets/images/Group32@3x1.png"
+                    class="h-40px"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section4 starts from here -->
+    <div class="bg-lightGreen py-5 section4-container">
+      <div
+        class="
+          position-absolute
+          left-0
+          d-flex
+          img-position-container
+          justify-content-start
+          mt-5
+        "
+      >
+        <img
+          src="./assets/images/Path8691-flip.png"
+          alt=""
+          class="w-70per z-index-1"
+        />
+      </div>
+      <div
+        class="
+          position-absolute
+          right-0
+          d-flex
+          img-position-container
+          justify-content-end
+        "
+      >
+        <img
+          src="./assets/images/Path8691.png"
+          alt=""
+          class="w-70per z-index-1"
+        />
+      </div>
+      <div class="container py-4">
+        <div class="section4-column">
+          <!-- 1st row -->
+          <div
+            class="
+              d-flex
+              justify-content-center
+              flex-column
+              align-items-center
+              flex-lg-row flex-xl-row
+              justify-content-lg-between justify-content-xl-between
+            "
+          >
+            <div
+              class="
+                col-10 col-lg-4 col-xl-4
+                py-2 py-lg-0 py-xl-0
+                absolute-img-container
+              "
+            >
+              <img src="./assets/images/Group-38359.png" alt="" class="w-100" />
+            </div>
+            <div class="col-10 col-lg-4 col-xl-4 py-2 py-lg-0 py-xl-0">
+              <img src="./assets/images/Group38356.png" alt="" class="w-100" />
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="d-flex justify-content-center py-2 py-lg-5 py-xl-5">
+            <div class="col-10 col-lg-6 col-xl-6">
+              <h2 class="text-center dark-blue2 font-weight-bold">
+                See what our customers say about our service
+              </h2>
+              <p class="text-center">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 3rd row -->
+        <div
+          class="
+            d-flex
+            justify-content-center
+            flex-column
+            align-items-center
+            flex-lg-row flex-xl-row
+            justify-content-lg-between justify-content-xl-between
+          "
+        >
+          <div class="col-10 col-lg-4 col-xl-4 py-2 py-lg-0 py-xl-0">
+            <img src="./assets/images/Group38358.png" alt="" class="w-100" />
+          </div>
+          <div
+            class="
+              col-10 col-lg-4 col-xl-4
+              py-2 py-lg-0 py-xl-0
+              absolute-img-container2
+            "
+          >
+            <img src="./assets/images/Group38357.png" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section5 starts from here -->
+    <div class="container section5-container py-5">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <!-- title -->
+        <div class="col-12 col-lg-8 col-xl-8 py-3">
+          <h1 class="fs-50 font-weight-bold text-center">
+            Click on the service you want 3 offers on
+          </h1>
+        </div>
+        <!-- navigations -->
+        <div
+          class="
+            col-12
+            px-0
+            navigation-links-container
+            d-flex
+            justify-content-center
+            py-4
+          "
+        >
+          <div
+            class="
+              d-flex
+              flex-wrap
+              col-11
+              justify-content-center
+              justify-content-lg-between
+              justify-content-xl-between
+            "
+          >
+            <!-- 1st box -->
+            <div
+              class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
+            >
+              <p class="font-weight-bold link m-0 link">Accountant</p>
+              <div class="bottom-line"></div>
+            </div>
+            <!-- 2nd box -->
+            <div
+              class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
+            >
+              <p class="font-weight-bold link m-0 link">Property Manager</p>
+              <div class="bottom-line"></div>
+            </div>
+            <!-- 3rd box -->
+            <div
+              class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
+            >
+              <p class="font-weight-bold link m-0 link">Annual accounts</p>
+              <div class="bottom-line"></div>
+            </div>
+            <!-- 4th box -->
+            <div
+              class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
+            >
+              <p class="font-weight-bold link m-0 link">Tax advice</p>
+              <div class="bottom-line"></div>
+            </div>
+            <!-- 5th box -->
+            <div
+              class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
+            >
+              <p class="font-weight-bold link m-0 link">Financial Accounting</p>
+              <div class="bottom-line"></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 px-0 d-flex flex-column flex-lg-row flex-xl-row py-5"
+        >
+          <!-- left side -->
+          <div class="col-12 col-lg-6 col-xl-6">
+            <img
+              src="./assets/images/Group-39111@3x.png"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <!-- right side -->
+          <div class="col-12 col-lg-6 col-xl-6 py-5">
+            <!-- title , content-->
+            <div>
+              <h3 class="font-weight-bold m-0 py-3">Financial Accounting</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+            </div>
+            <!-- list -->
+            <div class="px-2">
+              <div class="d-flex py-2 align-items-center">
+                <img src="./assets/images/Group.png" class="h-15px" alt="" />
+                <p class="m-0 px-2">It has survived not only five centuries,</p>
+              </div>
+              <div class="d-flex py-2 align-items-center">
+                <img src="./assets/images/Group.png" class="h-15px" alt="" />
+                <p class="m-0 px-2">
+                  but also the leap into electronic typesetting,
+                </p>
+              </div>
+              <div class="d-flex py-2 align-items-center">
+                <img src="./assets/images/Group.png" class="h-15px" alt="" />
+                <p class="m-0 px-2">remaining essentially unchanged.</p>
+              </div>
+              <div class="d-flex py-2 align-items-center">
+                <img src="./assets/images/Group.png" class="h-15px" alt="" />
+                <p class="m-0 px-2">
+                  It was popularised in the 1960s with the release of Letraset
+                  sheets
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                px-0
+                d-flex
+                flex-column flex-xl-row flex-lg-row
+                py-4
+                align-items-center align-items-lg-start align-items-xl-start
+              "
+            >
+              <div class="col-12 col-lg-4 col-xl-4 px-0 h-fitContent">
+                <button class="active-button br-radius7 w-100 px-3 py-3">
+                  Get 3 quotes now
+                </button>
+              </div>
+              <div
+                class="
+                  col-12 col-lg-4 col-xl-4
+                  py-3 py-lg-0 py-xl-0
+                  px-0 px-lg-2 px-xl-2
+                  h-fitContent
+                "
+              >
+                <button
+                  class="inActive-button border-0 br-radius7 w-100 px-3 py-3"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h5 class="text-center font-weight-bold primary">
+            F andt not you the service you're looking for?
+          </h5>
+          <p class="text-center">Click here and tell us how we can help you.</p>
+        </div>
+      </div>
+    </div>
+    <!-- section 6 starts from here -->
+    <div class="section6-container bg-lightGreen">
+      <div class="position-absolute left-0">
+        <img src="./assets/images/flip.png" alt="" class="w-90per" />
+      </div>
+      <div class="container py-3">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <div
+            class="col-12 px-0 d-flex flex-column flex-lg-row flex-xl-row py-5"
+          >
+            <!-- left side -->
+            <div class="col-12 col-lg-6 col-xl-6 py-5">
+              <!-- title , content-->
+              <div>
+                <h3 class="font-weight-bold m-0 py-3">WHO IS REVIMATCH?</h3>
+                <p>
+                  Revimatch is Denmark's most specialized intermediary in
+                  financial services.
+                </p>
+              </div>
+              <!-- list -->
+              <div class="px-2">
+                <div class="d-flex py-2">
+                  <img
+                    src="./assets/images/Group.png"
+                    class="h-15px my-1"
+                    alt=""
+                  />
+                  <p class="m-0 px-2">
+                    Our network consists of qualified accountants and
+                    accountants who are at your disposal.
+                  </p>
+                </div>
+                <div class="d-flex py-2">
+                  <img
+                    src="./assets/images/Group.png"
+                    class="h-15px my-1"
+                    alt=""
+                  />
+                  <p class="m-0 px-2">
+                    All you have to do is fill out our customer form and we will
+                    find three bids for accounting professionals to suit your
+                    exact needs. Our service is free and without obligation, and
+                    you are therefore free to decide whether you want to make
+                    use of the advisers that we find for you.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- right side -->
+            <div class="col-12 col-lg-6 col-xl-6">
+              <img
+                src="./assets/images/Sandra-removebg-preview@3x.png"
+                alt=""
+                class="w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 7 starts from here -->
+    <div class="section7-container">
+      <div class="container py-3 px-0">
+        <div class="position-absolute right-0 top-image-container">
+          <img
+            src="./assets/images/Mask-Group-33-new.png"
+            alt=""
+            class="h-290px"
+          />
+        </div>
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <div
+            class="
+              col-12
+              px-0
+              d-flex
+              flex-column flex-lg-row flex-xl-row
+              py-5
+              justify-content-lg-between justify-content-xl-between
+            "
+          >
+            <!-- left side -->
+            <div class="col-12 col-lg-5 col-xl-5">
+              <!-- title -->
+              <div>
+                <h3
+                  class="
+                    font-weight-bold
+                    dark-blue2
+                    text-lg-left text-xl-left text-center
+                  "
+                >
+                  WHY CHOOSE <span class="primary">REVIMATCH ?</span>
+                </h3>
+              </div>
+              <div>
+                <img
+                  src="./assets/images/Group38619@3x.png"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+            </div>
+            <!-- right side -->
+            <div class="col-12 col-lg-5 col-xl-5 py-5 question-container px-0">
+              <!-- 1st box -->
+              <div
+                class="
+                  px-3
+                  d-flex
+                  justify-content-center
+                  common-box-container
+                  my-2
+                "
+              >
+                <div class="common-box col-10 py-3 px-3">
+                  <h4 class="font-weight-bold dark-blue2">You save time</h4>
+                  <p>
+                    We carefully select candidates that suit your preferences,
+                    so you do not have to find and contact them yourself.
+                  </p>
+                </div>
+              </div>
+              <!-- 2nd box -->
+              <div
+                class="
+                  px-3
+                  d-flex
+                  justify-content-center
+                  common-box-container
+                  my-2
+                "
+              >
+                <div class="common-box col-10 py-3 px-3">
+                  <h4 class="font-weight-bold dark-blue2">Personal Advice</h4>
+                  <p>
+                    Our skilled service team is ready to contact you. They will
+                    review your assignment with you on the phone, so we make
+                    sure we find the perfect solution.
+                  </p>
+                </div>
+              </div>
+              <!-- 3rd box -->
+              <div
+                class="
+                  px-3
+                  d-flex
+                  justify-content-center
+                  common-box-container
+                  my-2
+                "
+              >
+                <div class="common-box col-10 py-3 px-3">
+                  <h4 class="font-weight-bold dark-blue2">You save money</h4>
+                  <p>
+                    By choosing a skilled accountant that matches your size and
+                    needs, you can save a lot of money. Through increased
+                    competition, we also make sure that our partners give you a
+                    good offer, as they know there are 3 offers.
+                  </p>
+                </div>
+              </div>
+              <!-- 4th box -->
+              <div
+                class="
+                  px-3
+                  d-flex
+                  justify-content-center
+                  common-box-container
+                  my-2
+                "
+              >
+                <div class="common-box col-10 py-3 px-3">
+                  <h4 class="font-weight-bold dark-blue2">
+                    Free & no obligation
+                  </h4>
+                  <p>
+                    Revimatch service is 100% free and without obligation to
+                    use. You choose whether you want to go ahead with some of
+                    the offers and you do not have to pay for it whether you
+                    choose a candidate or not.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-absolute left-0 bottom-image-container">
+          <img src="./assets/images/Mask-Group-33.png" alt="" class="h-250px" />
+        </div>
+      </div>
+    </div>
+    <!-- section 8 -->
+    <div class="section8-container bg-lightGreen py-5">
+      <div class="position-absolute right-0 d-flex justify-content-end">
+        <img
+          src="./assets/images/Path8691.png"
+          alt=""
+          class="w-60per z-index-1"
+        />
+      </div>
+      <div
+        class="container d-flex flex-column flex-lg-row flex-xl-row px-2 py-3"
+      >
+        <!-- left side -->
+        <div class="col-12 col-lg-6 col-xl-6 left-side-content">
+          <!-- title -->
+          <div class="py-2">
+            <h2
+              class="
+                font-weight-bold
+                fs-50
+                dark-blue2
+                text-lg-left text-xl-left text-center
+              "
+            >
+              We are ready to help you in FAQ and accountant
+            </h2>
+          </div>
+          <div
+            class="
+              d-flex
+              justify-content-center
+              justify-content-lg-start
+              justify-content-xl-start
+              py-5
+            "
+          >
+            <div class="col-7 px-0">
+              <input
+                class="py-4 w-100 bg-white h-100 border-0 px-2 px-lg-3 px-xl-3"
+                placeholder="Enter you Mail"
+              />
+            </div>
+            <div class="px-0">
+              <button
+                class="active-button fs-17 m-0 h-100 px-2 px-lg-3 px-xl-3 py-4"
+              >
+                READY TO GO
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- right side -->
+        <div class="col-12 col-lg-6 col-xl-6 py-3 py-lg-0 py-xl-0">
+          <img
+            src="./assets/images/shutterstock_453643495-removebg@3x.png"
+            alt=""
+            class="w-100"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- section 9 -->
+    <div class="section9-container py-5">
+      <div
+        class="container d-flex flex-column flex-lg-row flex-xl-row px-2 py-3"
+      >
+        <div class="position-absolute left-0 line-container">
+          <img src="./assets/images/Mask-Group-35.png" alt="" class="w-61per" />
+        </div>
+        <!-- left side -->
+        <div
+          class="
+            col-12 col-lg-6 col-xl-6
+            d-flex
+            flex-column
+            justify-content-center
+          "
+        >
+          <!-- title -->
+          <div class="py-2">
+            <h2
+              class="
+                font-weight-bold
+                fs-50
+                dark-blue2
+                text-center text-lg-left text-xl-left
+              "
+            >
+              GET 3 Offers now
+            </h2>
+            <p class="text-center text-lg-left text-xl-left">
+              It's completely free & no obligation
+            </p>
+          </div>
+          <div
+            class="
+              d-flex
+              justify-content-center
+              justify-content-lg-start
+              justify-content-xl-start
+            "
+          >
+            <div class="px-0 col-10 col-lg-6 col-xl-6">
+              <button
+                class="
+                  br-radius7
+                  w-100
+                  active-button
+                  fs-17
+                  m-0
+                  h-100
+                  px-2 px-lg-4 px-xl-4
+                  py-2
+                "
+              >
+                Yes Please - I would like 3 offers
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- right side -->
+        <div class="col-12 col-lg-6 col-xl-6 py-3 py-lg-0 py-xl-0">
+          <img src="./assets/images/Group38541@3x.png" alt="" class="w-100" />
+        </div>
+      </div>
+    </div>
+    <!-- section 10 -->
+    <div class="section10-container bg-lightGreen py-5">
+      <div class="position-absolute right-0 d-flex justify-content-end">
+        <img
+          src="./assets/images/Path8691.png"
+          alt=""
+          class="w-90per z-index-1"
+        />
+      </div>
+      <div class="container py-4">
+        <div>
+          <h1 class="py-2 m-0 dark-blue2 font-weight-bold fs-50 text-center">
+            Frequently Ask Questions
+          </h1>
+          <p class="m-0 text-center py-4 dark-blue2 font-weight-bold fs-16">
+            If you don't find an answer to your question contact us on instagram
+            or facebook.
+          </p>
+        </div>
+        <!-- collapse -->
+        <div class="d-flex justify-content-center pt-5">
+          <div id="accordion" class="col-12 col-lg-7 col-xl-7 px-0">
+            <div class="card common-bottom-border">
+              <div class="card-header px-0" id="headingone">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      collapsed
+                      d-flex
+                      align-items-center
+                      px-0
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapseone"
+                    aria-expanded="false"
+                    aria-controls="collapseone"
+                  >
+                    <img
+                      src="./assets/images/chevron-down@3x.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <span class="px-3">Question number 01 goes in here?</span>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseone"
+                class="collapse"
+                aria-labelledby="headingone"
+                data-parent="#accordion"
+              >
+                <div class="card-body bg-lightGreen">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  pretium pretium tempor. Ut eget imperdiet neque. In volutpat
+                  ante semper diam molestie, et aliquam erat laoreet.
+                </div>
+              </div>
+            </div>
+            <div class="card common-bottom-border">
+              <div class="card-header px-0" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      collapsed
+                      px-0
+                      d-flex
+                      align-items-center
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <img
+                      src="./assets/images/chevron-down@3x.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <span class="px-3">Question number 02 goes in here?</span>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body bg-lightGreen">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  pretium pretium tempor. Ut eget imperdiet neque. In volutpat
+                  ante semper diam molestie, et aliquam erat laoreet.
+                </div>
+              </div>
+            </div>
+            <div class="card common-bottom-border">
+              <div class="card-header px-0" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      px-0
+                      collapsed
+                      d-flex
+                      align-items-center
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <img
+                      src="./assets/images/chevron-down@3x.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <span class="px-3">Question number 03 goes in here?</span>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body bg-lightGreen">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  pretium pretium tempor. Ut eget imperdiet neque. In volutpat
+                  ante semper diam molestie, et aliquam erat laoreet.
+                </div>
+              </div>
+            </div>
+            <div class="card common-bottom-border">
+              <div class="card-header px-0" id="headingfour">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      px-0
+                      collapsed
+                      d-flex
+                      align-items-center
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapsefour"
+                    aria-expanded="false"
+                    aria-controls="collapsefour"
+                  >
+                    <img
+                      src="./assets/images/chevron-down@3x.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <span class="px-3">Question number 04 goes in here?</span>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapsefour"
+                class="collapse"
+                aria-labelledby="headingfour"
+                data-parent="#accordion"
+              >
+                <div class="card-body bg-lightGreen">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  pretium pretium tempor. Ut eget imperdiet neque. In volutpat
+                  ante semper diam molestie, et aliquam erat laoreet.
+                </div>
+              </div>
+            </div>
+            <div class="card common-bottom-border">
+              <div class="card-header px-0" id="headingfour">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      px-0
+                      collapsed
+                      d-flex
+                      align-items-center
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapsefour"
+                    aria-expanded="false"
+                    aria-controls="collapsefour"
+                  >
+                    <img
+                      src="./assets/images/chevron-down@3x.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <span class="px-3">Question number 05 goes in here?</span>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapsefour"
+                class="collapse"
+                aria-labelledby="headingfour"
+                data-parent="#accordion"
+              >
+                <div class="card-body bg-lightGreen">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  pretium pretium tempor. Ut eget imperdiet neque. In volutpat
+                  ante semper diam molestie, et aliquam erat laoreet.
+                </div>
+              </div>
+            </div>
+            <div class="card common-bottom-border">
+              <div class="card-header px-0" id="headingfive">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      px-0
+                      collapsed
+                      d-flex
+                      align-items-center
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapsefive"
+                    aria-expanded="false"
+                    aria-controls="collapsefive"
+                  >
+                    <img
+                      src="./assets/images/chevron-down@3x.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <span class="px-3">Question number 06 goes in here?</span>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapsefive"
+                class="collapse"
+                aria-labelledby="headingfive"
+                data-parent="#accordion"
+              >
+                <div class="card-body bg-lightGreen">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  pretium pretium tempor. Ut eget imperdiet neque. In volutpat
+                  ante semper diam molestie, et aliquam erat laoreet.
+                </div>
+              </div>
+            </div>
+            <div class="card common-bottom-border">
+              <div class="card-header px-0" id="headingsix">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      px-0
+                      collapsed
+                      d-flex
+                      align-items-center
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapsesix"
+                    aria-expanded="false"
+                    aria-controls="collapsesix"
+                  >
+                    <img
+                      src="./assets/images/chevron-down@3x.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <span class="px-3">Question number 06 goes in here?</span>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapsesix"
+                class="collapse"
+                aria-labelledby="headingsix"
+                data-parent="#accordion"
+              >
+                <div class="card-body bg-lightGreen">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  pretium pretium tempor. Ut eget imperdiet neque. In volutpat
+                  ante semper diam molestie, et aliquam erat laoreet.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header px-0" id="headingsix">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-link
+                      px-0
+                      collapsed
+                      d-flex
+                      align-items-center
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapsesix"
+                    aria-expanded="false"
+                    aria-controls="collapsesix"
+                  >
+                    <img
+                      src="./assets/images/chevron-down@3x.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <span class="px-3">Question number 07 goes in here?</span>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapsesix"
+                class="collapse"
+                aria-labelledby="headingsix"
+                data-parent="#accordion"
+              >
+                <div class="card-body bg-lightGreen">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  pretium pretium tempor. Ut eget imperdiet neque. In volutpat
+                  ante semper diam molestie, et aliquam erat laoreet.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 11 -->
+    <div class="container py-0 py-lg-5 py-xl-5">
+      <div class="py-5 d-flex justify-content-center">
+        <div
+          class="
+            col-12 col-lg-9 col-xl-9
+            px-0
+            section11-container
+            d-flex
+            flex-column flex-lg-row flex-xl-row
+          "
+        >
+          <!-- left-side -->
+          <div class="col-12 col-lg-7 col-xl-7 left-side-container">
+            <img
+              src="./assets/images/Rectangle.png"
+              alt=""
+              class="w-100 h-lg-100 h-xl-100"
+            />
+          </div>
+          <!-- right-side -->
+          <div class="col-12 col-lg-5 col-xl-5 px-0 right-side-container">
+            <!-- logo -->
+            <div class="d-flex justify-content-center right-logo-container">
+              <img
+                src="./assets/images/Group38477@3x.png"
+                alt=""
+                class="h-100px"
+              />
+            </div>
+            <!-- name -->
+            <div
+              class="
+                pt-2 pt-lg-5 pt-xl-5
+                pb-2 pb-lg-3 pb-xl-3
+                name-follewers-container
+              "
+            >
+              <h5 class="dark-blue fs-32 m-0 font-weight-bold text-center">
+                REVIMATCH
+              </h5>
+              <p class="fs-15 font-weight-bold m-0 text-center">
+                2561 Followers
+              </p>
+            </div>
+            <div class="d-flex justify-content-around px-1">
+              <div
+                class="
+                  common-box
+                  py-2
+                  d-flex
+                  justify-content-center
+                  px-2
+                  d-flex
+                  align-items-center
+                "
+              >
+                <img
+                  src="./assets/images/Path12@3x.png"
+                  alt=""
+                  class="h-18px"
+                />
+                <span class="px-2 font-weight-bold">Message</span>
+              </div>
+              <div
+                class="
+                  common-box
+                  py-2
+                  d-flex
+                  justify-content-center
+                  px-3
+                  d-flex
+                  align-items-center
+                "
+              >
+                <img
+                  src="./assets/images/icons8-phone@3x.png"
+                  alt=""
+                  class="h-18px"
+                />
+              </div>
+              <div
+                class="
+                  common-box
+                  py-2
+                  d-flex
+                  justify-content-center
+                  px-3
+                  d-flex
+                  align-items-center
+                "
+              >
+                <img
+                  src="./assets/images/Group10@3x.png"
+                  alt=""
+                  class="h-18px"
+                />
+              </div>
+              <div
+                class="
+                  common-box
+                  py-2
+                  d-flex
+                  justify-content-center
+                  px-3
+                  d-flex
+                  align-items-center
+                "
+              >
+                <img
+                  src="./assets/images/Group11@3x.png"
+                  alt=""
+                  class="h-5px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 12 -->
+    <div class="container py-5">
+      <div
+        class="
+          section12-container
+          px-2
+          d-flex
+          flex-column flex-lg-row flex-xl-row
+        "
+      >
+        <!-- left side -->
+        <div class="col-12 col-lg-6 col-xl-6 px-0">
+          <div class="section12-common-box br-radius7 bg-lightPurple">
+            <div
+              class="social-content-container col-10 py-3 px-2 px-lg-4 px-xl-4"
+            >
+              <p class="m-0 dark-blue2 fs-12 font-weight-bold">
+                Revimatch har hurtigt vokset sig stor, og vækstmålene er stadig
+                ambitiøse.
+              </p>
+              <p class="m-0 dark-blue2 fs-12 font-weight-bold py-4">
+                Gå ind og læs! 😎 Med et nyt ansigt i teamet hver anden måned
+                siden starten for tre år siden, har rollen som stifter af
+                formidlingsvirksomheden Revimatch ændret sig markant.
+              </p>
+              <div class="d-flex">
+                <div>
+                  <img
+                    src="./assets/images/Group38477@3x.png"
+                    alt=""
+                    class="h-50px"
+                  />
+                </div>
+                <div class="px-2">
+                  <p class="font-weight-bold m-0 fs-14">Revimatch</p>
+                  <p class="font-weight-bold m-0 fs-12 m-0 py-1">
+                    about 6 months ago
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- right-side -->
+        <div
+          class="
+            col-12 col-lg-6 col-xl-6
+            px-2
+            d-flex
+            align-items-center
+            pt-5 pt-lg-5 pt-xl-5
+            pb-0 pb-lg-5 pb-xl-5
+          "
+        >
+          <div class="px-3 py-5 py-lg-0 py-xl-0">
+            <h1 class="fs-32 font-weight-bold">
+              Explanation about you Social Media For Interaction.
+            </h1>
+            <div class="py-4">
+              <p class="fs-16 text-secondary">
+                You should be able to find several indispensable facts about
+                motivation in the following paragraphs.
+              </p>
+              <p class="fs-16 text-secondary">
+                If there’s at least one fact you didn’t know before, imagine the
+                difference it might make.
+              </p>
+            </div>
+            <div class="py-3">
+              <p class="primary font-weight-bold">SEE ON FACEBOOK PAGE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 13 , 14 , 15-->
+    <div>
+      <div class="position-absolute">
+        <img src="./assets/images/layer.png" alt="" class="w-100" />
+      </div>
+      <!--section 13 -->
+      <div class="py-0 py-lg-5 py-xl-5">
+        <div class="container pt-0 pt-lg-5 pt-xl-5 pb-5">
+          <div
+            class="
+              section12-container
+              px-2
+              d-flex
+              flex-column flex-lg-row flex-xl-row
+            "
+          >
+            <!-- left side -->
+            <div
+              class="
+                col-12 col-lg-6 col-xl-6
+                px-2
+                d-flex
+                align-items-center
+                pt-0 pt-lg-5 pt-xl-5
+                pb-0 pb-lg-5 pb-xl-5
+              "
+            >
+              <div class="px-3">
+                <h1 class="fs-32 font-weight-bold">
+                  Explanation about you Social Media For Interaction.
+                </h1>
+                <div class="py-4">
+                  <p class="fs-16 text-secondary">
+                    You should be able to find several indispensable facts about
+                    motivation in the following paragraphs.
+                  </p>
+                  <p class="fs-16 text-secondary">
+                    If there’s at least one fact you didn’t know before, imagine
+                    the difference it might make.
+                  </p>
+                </div>
+                <div class="py-3">
+                  <p class="primary font-weight-bold">SEE ON FACEBOOK PAGE</p>
+                </div>
+              </div>
+            </div>
+            <!-- right-side -->
+            <div
+              class="col-12 col-lg-6 col-xl-6 px-0 d-flex justify-content-end"
+            >
+              <div class="section12-common-box br-radius7 bg-lightblue">
+                <div
+                  class="
+                    social-content-container2
+                    col-10
+                    py-3
+                    px-2 px-lg-4 px-xl-4
+                  "
+                >
+                  <p class="m-0 dark-blue2 fs-12 font-weight-bold">
+                    Revimatch har hurtigt vokset sig stor, og vækstmålene er
+                    stadig ambitiøse.
+                  </p>
+                  <p class="m-0 dark-blue2 fs-12 font-weight-bold py-4">
+                    Gå ind og læs! 😎 Med et nyt ansigt i teamet hver anden
+                    måned siden starten for tre år siden, har rollen som stifter
+                    af formidlingsvirksomheden Revimatch ændret sig markant.
+                  </p>
+                  <div class="d-flex">
+                    <div>
+                      <img
+                        src="./assets/images/Group38477@3x.png"
+                        alt=""
+                        class="h-50px"
+                      />
+                    </div>
+                    <div class="px-2">
+                      <p class="font-weight-bold m-0 fs-14">Revimatch</p>
+                      <p class="font-weight-bold m-0 fs-12 m-0 py-1">
+                        about 6 months ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 14 -->
+      <div class="container pt-5 pt-lg-5 pt-xl-5 pb-0 pb-lg-5 pb-xl-5">
+        <div
+          class="
+            section12-container
+            px-2
+            d-flex
+            flex-column flex-lg-row flex-xl-row
+          "
+        >
+          <!-- left side -->
+          <div class="col-12 col-lg-6 col-xl-6 px-0">
+            <div class="section12-common-box br-radius7 bg-lightGreen">
+              <div
+                class="
+                  social-content-container
+                  col-10
+                  py-3
+                  px-2 px-lg-4 px-xl-4
+                "
+              >
+                <p class="m-0 dark-blue2 fs-12 font-weight-bold">
+                  Revimatch har hurtigt vokset sig stor, og vækstmålene er
+                  stadig ambitiøse.
+                </p>
+                <p class="m-0 dark-blue2 fs-12 font-weight-bold py-4">
+                  Gå ind og læs! 😎 Med et nyt ansigt i teamet hver anden måned
+                  siden starten for tre år siden, har rollen som stifter af
+                  formidlingsvirksomheden Revimatch ændret sig markant.
+                </p>
+                <div class="d-flex">
+                  <div>
+                    <img
+                      src="./assets/images/Group38477@3x.png"
+                      alt=""
+                      class="h-50px"
+                    />
+                  </div>
+                  <div class="px-2">
+                    <p class="font-weight-bold m-0 fs-14">Revimatch</p>
+                    <p class="font-weight-bold m-0 fs-12 m-0 py-1">
+                      about 6 months ago
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- right-side -->
+          <div
+            class="
+              col-12 col-lg-6 col-xl-6
+              px-2
+              d-flex
+              align-items-center
+              pt-5 pt-lg-5 pt-xl-5
+              pb-0 pb-lg-5 pb-xl-5
+            "
+          >
+            <div class="px-3 py-5 py-lg-0 py-xl-0">
+              <h1 class="fs-32 font-weight-bold">
+                Explanation about you Social Media For Interaction.
+              </h1>
+              <div class="py-4">
+                <p class="fs-16 text-secondary">
+                  You should be able to find several indispensable facts about
+                  motivation in the following paragraphs.
+                </p>
+                <p class="fs-16 text-secondary">
+                  If there’s at least one fact you didn’t know before, imagine
+                  the difference it might make.
+                </p>
+              </div>
+              <div class="py-3">
+                <p class="primary font-weight-bold">SEE ON FACEBOOK PAGE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 15 -->
+      <div class="container section15-container py-2 py-lg-5 py-xl-5 z-index-1">
+        <div
+          class="
+            follow-description-container
+            d-flex
+            flex-column flex-lg-row flex-xl-row
+          "
+        >
+          <!-- left side -->
+          <div class="col-12 col-lg-4 col-xl-4">
+            <!-- title -->
+            <div>
+              <h6
+                class="
+                  font-weight-bold
+                  dark-blue2
+                  m-0
+                  py-2
+                  text-center text-lg-left text-xl-left
+                "
+              >
+                Feel Free
+              </h6>
+              <h2
+                class="
+                  font-weight-bold
+                  fs-32
+                  text-center text-lg-left text-xl-left
+                "
+              >
+                Follow us on Instagram
+              </h2>
+            </div>
+          </div>
+          <!-- right side -->
+          <div class="col-12 col-lg-8 col-xl-8">
+            <img src="./assets/images/Group39173.png" alt="" class="w-100" />
+          </div>
+        </div>
+        <!-- left bottom circle -->
+        <div class="circle-image-container">
+          <img src="./assets/images/sideCircle.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- footer starts from here -->
+    <div class="footer-container py-5">
+      <div class="container px-2 py-5">
+        <!-- lists -->
+        <div
+          class="
+            px-0
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+            flex-lg-row flex-xl-row
+            align-items-lg-start align-items-xl-start
+            justify-content-lg-between justify-content-xl-between
+          "
+        >
+          <!-- 1st -->
+          <div class="col-12 col-lg-3 col-xl-3">
+            <div
+              class="
+                d-flex
+                justify-content-center
+                justify-content-lg-start
+                justify-content-xl-start
+              "
+            >
+              <img
+                src="./assets/images/Revimatch_neg_4F_med_flag_HOL.png"
+                alt=""
+                class="h-30px"
+              />
+            </div>
+            <div class="pt-5 m-0">
+              <ul class="list-unstyled text-center text-lg-left text-xl-left">
+                <li class="py-2 gray-color">Revimatch Group of Comapnies</li>
+                <li class="py-2 gray-color">Fjeldhammervej 15 2610 Rødovre</li>
+                <li
+                  class="
+                    py-2
+                    gray-color
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    justify-content-lg-start
+                    justify-content-xl-start
+                  "
+                >
+                  <img
+                    src="./assets/images/Group-39172.png"
+                    class="h-15px"
+                    alt=""
+                  />
+                  <span class="px-3">kontakt@revimatch.dk</span>
+                </li>
+                <li
+                  class="
+                    py-2
+                    gray-color
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    justify-content-lg-start
+                    justify-content-xl-start
+                  "
+                >
+                  <img src="./assets/images/phone.png" class="h-15px" alt="" />
+                  <span class="px-3">+45 70 60 50 58</span>
+                </li>
+                <li
+                  class="
+                    py-2
+                    gray-color
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    justify-content-lg-start
+                    justify-content-xl-start
+                  "
+                >
+                  <img
+                    src="./assets/images/Group-39171.png"
+                    class="h-15px"
+                    alt=""
+                  />
+                  <span class="px-3">39204630</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="col-12 col-lg-2 col-xl-2 py-5 py-lg-0 py-xl-0">
+            <div>
+              <h6
+                class="
+                  m-0
+                  text-white
+                  font-weight-bold
+                  text-center text-lg-left text-xl-left
+                "
+              >
+                Services
+              </h6>
+            </div>
+            <div class="tb-common-padding">
+              <ul
+                class="
+                  list-unstyled
+                  m-0
+                  text-center text-center text-lg-left text-xl-left
+                "
+              >
+                <li class="py-2 gray-color">Audit</li>
+                <li class="py-2 gray-color">Bookkeeping</li>
+                <li class="py-2 gray-color">Tax return</li>
+                <li class="py-2 gray-color">Annual accounts Tax</li>
+                <li class="py-2 gray-color">advice</li>
+              </ul>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="col-12 col-lg-2 col-xl-2">
+            <div>
+              <h6
+                class="
+                  m-0
+                  text-white
+                  font-weight-bold
+                  text-center text-lg-left text-xl-left
+                "
+              >
+                Overview
+              </h6>
+            </div>
+            <div class="tb-common-padding">
+              <ul
+                class="
+                  gray-color
+                  list-unstyled
+                  m-0
+                  text-center text-lg-left text-xl-left
+                "
+              >
+                <li class="py-2 gray-color">Personal</li>
+                <li class="py-2 gray-color">Cookies</li>
+                <li class="py-2 gray-color">Dictionary Blog</li>
+              </ul>
+            </div>
+          </div>
+          <!-- 4th -->
+          <div class="col-12 col-lg-3 col-xl-3 py-5 py-lg-0 py-xl-0">
+            <div>
+              <h6
+                class="
+                  m-0
+                  text-white
+                  font-weight-bold
+                  text-center text-lg-left text-xl-left
+                "
+              >
+                Register as a partner accountant
+              </h6>
+            </div>
+            <div class="tb-common-padding">
+              <ul
+                class="
+                  gray-color
+                  list-unstyled
+                  m-0
+                  registery-lists
+                  text-center text-lg-left text-xl-left
+                "
+              >
+                <li class="py-2 gray-color">Get quality-assured leads</li>
+                <li class="py-2 gray-color">that you hand-</li>
+                <li class="py-2 gray-color">pick as needed</li>
+                <ul
+                  class="
+                    pt-5
+                    w-100
+                    list-unstyled
+                    px-0
+                    m-0
+                    d-flex
+                    justify-content-center
+                    justify-content-lg-start
+                    justify-content-xl-start
+                  "
+                >
+                  <li class="col-10 px-0">
+                    <button
+                      type="button"
+                      class="
+                        btn
+                        py-3
+                        px-2
+                        d-flex
+                        justify-content-around
+                        w-100
+                        align-items-center
+                        btn-outline-secondary
+                      "
+                    >
+                      <span> Read More</span>
+                      <img
+                        src="./assets/images/arrow.png"
+                        class="h-15px"
+                        alt=""
+                      />
+                    </button>
+                  </li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- languages -->
+        <div
+          class="
+            languages-container
+            col-12 col-lg-3 col-xl-3
+            py-3
+            px-3
+            mx-0 mx-lg-2 mx-xl-2
+            mt-5
+          "
+        >
+          <!-- 1st -->
+          <div class="d-flex justify-content-between align-items-center py-2">
+            <div class="d-flex align-items-center">
+              <img src="./assets/images/download.png" class="" alt="" />
+              <p class="text-white px-3 m-0">Denmark</p>
+            </div>
+            <div>
+              <img src="./assets/images/arrowdown.png" class="h-15px" />
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="d-flex justify-content-between align-items-center py-2">
+            <div class="d-flex align-items-center">
+              <img src="./assets/images/sweden.png" class="" alt="" />
+              <p class="text-white px-3 m-0">Sweden</p>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="d-flex justify-content-between align-items-center py-2">
+            <div class="d-flex align-items-center">
+              <img src="./assets/images/download.png" class="" alt="" />
+              <p class="text-white px-3 m-0">Norway</p>
+            </div>
+          </div>
+          <!-- 4th -->
+          <div class="d-flex justify-content-between align-items-center py-2">
+            <div class="d-flex align-items-center">
+              <img src="./assets/images/uk.png" class="" alt="" />
+              <p class="text-white px-3 m-0">United Kingdom</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

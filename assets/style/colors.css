@@ -1,0 +1,30 @@
+/* colors */
+.dark-blue {
+  color: #042d52;
+}
+.dark-blue2 {
+  color: #2c2e3f;
+}
+.primary {
+  color: #0b4fe6;
+}
+.light-blue {
+  color: #aec5f6;
+}
+.gray-color {
+  color: #d5d5d5;
+}
+.darkgray-color {
+  color: #042d52;
+}
+
+/* background colors */
+.bg-lightGreen {
+  background: #eff9ff;
+}
+.bg-lightPurple {
+  background-color: #faebea;
+}
+.bg-lightblue {
+  background: #e6edfd;
+}
