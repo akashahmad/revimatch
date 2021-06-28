@@ -14,6 +14,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#section1-checkboxes-container{
+  display: none;
+}
 .section1-container .header-container {
   border-radius: 20px;
   box-shadow: 50px 50px 100px 0 rgba(114, 215, 255, 0.16);
@@ -92,19 +95,33 @@ body {
 
 
 .section1-container .section1-body-container .checkboxes-lists {
+  position: absolute;
   border-radius: 34px;
   z-index: 1;
   box-shadow: 0 10px 40px 0 rgba(11, 79, 230, 0.16);
+  margin: -10px 0px 0px -16px;
 }
-@media (max-width: 1110px) and (min-width: 320px) {
-  .section1-container .section1-body-container .right-side img {
-    width: 100%;
+
+.section1-container .section1-body-container .right-side .man-img {
+  position: absolute;
+  height: 568px;
+  margin: 51px 0px 0px 0px;
+}
+@media (max-width: 991px) and (min-width: 320px) {
+  /* .section1-container .section1-body-container .checkboxes-lists {
+    position: initial!important;
+    margin: 0px;
+  } */
+  .section1-container .section1-body-container .right-side .man-img {
+    position: inherit;
+    height: 250px;
+    margin: 0px;
   }
 }
 /* section 2 starts from here */
 .section2-container {
   position: absolute;
-  margin: -160px 100px 0px 45px;
+  margin: -65px 100px 0px 45px;
 }
 @media (max-width: 991px) and (min-width: 320px) {
   .section2-container {
@@ -124,7 +141,7 @@ body {
 }
 /* section3 starts from here */
 .section3 {
-  padding: 300px 0px 0px 0px;
+  padding: 460px 0px 0px 0px;
 }
 .section3 .contact-description {
   box-shadow: 0 0 50px 0 rgba(11, 79, 230, 0.09);
@@ -187,6 +204,15 @@ body {
 .section5-container .navigation-links-container .link {
   cursor: pointer;
 }
+.section5-container .navigation-links-container .active-Link {
+  cursor: pointer;
+  color: #0b4fe6;
+}
+.section5-container .navigation-links-container .active-bottom-line {
+  background: #0b4fe6;
+  width: 70%;
+  height: 2px;
+}
 .section5-container .navigation-links-container .link:hover {
   color: #0b4fe6;
 }
@@ -224,6 +250,15 @@ body {
 .section8-container .left-side-content button {
   border-bottom-right-radius: 7px;
   border-top-right-radius: 7px;
+}
+.section8-container .right-side-container img{
+  height: 360px;
+}
+@media (max-width: 1300px) and (min-width: 320px) {
+  .section8-container .right-side-container img{
+    height: auto;
+    width: 100%;
+  } 
 }
 /* section 9 css starts from here */
 .section9-container .line-container{

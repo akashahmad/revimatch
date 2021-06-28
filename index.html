@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <!-- bootsrap 4 links -->
@@ -40,7 +40,7 @@
   <body>
     <!-- section1 and 2 starts from here -->
     <div>
-      <div class="section1-container py-3">
+      <div class="section1-container pt-3 pb-5">
         <div class="container px-2 px-lg-0 px-xl-0">
           <!-- header -->
           <div
@@ -157,9 +157,7 @@
                       class="h-22px"
                       alt=""
                     />
-                    <p class="px-3 fs-15 dark-blue font-weight-bold">
-                      Submit your query
-                    </p>
+                    <p class="px-3 fs-15 dark-blue">Submit your query</p>
                   </div>
                   <div class="d-flex">
                     <img
@@ -167,7 +165,7 @@
                       class="h-22px"
                       alt=""
                     />
-                    <p class="px-3 fs-15 dark-blue font-weight-bold">
+                    <p class="px-3 fs-15 dark-blue">
                       Choose the candidate you prefer
                     </p>
                   </div>
@@ -177,7 +175,7 @@
                       class="h-22px"
                       alt=""
                     />
-                    <p class="px-3 fs-15 dark-blue font-weight-bold">
+                    <p class="px-3 fs-15 dark-blue">
                       We match you with up to 3 candidates
                     </p>
                   </div>
@@ -186,10 +184,8 @@
                 <div
                   class="
                     d-flex
-                    flex-column flex-lg-row flex-xl-row
-                    justify-content-center
-                    justify-content-lg-start
-                    justify-content-lg-start
+                    flex-column flex-xl-row flex-lg-row
+                    checkboxes-button-section1-container
                   "
                 >
                   <div
@@ -203,9 +199,19 @@
                       py-lg-4
                     "
                   >
-                    <h6 class="m-0 fs-17 light-blue">I am looking for</h6>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                      onclick="myFunction()"
+                    >
+                      <h6 class="m-0 fs-17 light-blue">I am looking for</h6>
+                      <img
+                        src="./assets/images/down-arrow-green.png"
+                        class="h-15px"
+                        alt=""
+                      />
+                    </div>
                     <!-- checkboxes -->
-                    <div class="pt-4">
+                    <div class="pt-4" id="section1-checkboxes-container">
                       <div class="form-check py-1 d-flex">
                         <input
                           class="form-check-input"
@@ -317,26 +323,38 @@
                   <!-- button -->
                   <div
                     class="
-                      col-12
                       d-flex
                       justify-content-center
-                      col-lg-4 col-xl-4
-                      py-3 py-lg-0 py-xl-0
-                      px-2
+                      justify-content-lg-end
+                      justify-content-xl-end
+                      w-100
+                      pt-5 pt-lg-0 pt-xl-0
                     "
                   >
-                    <button
+                    <div
                       class="
-                        active-button
-                        br-radius35
-                        px-4
-                        py-3
-                        h-fitContent
-                        w-100
+                        col-12 col-lg-3 col-xl-3
+                        justify-content-center
+                        justify-content-lg-end
+                        justify-content-xl-end
+                        col-lg-4 col-xl-4
+                        py-3 py-lg-0 py-xl-0
+                        px-0 px-lg-2 px-xl-2
                       "
                     >
-                      Get 3 offers
-                    </button>
+                      <button
+                        class="
+                          active-button
+                          br-radius35
+                          px-2
+                          py-3
+                          h-fitContent
+                          w-100
+                        "
+                      >
+                        Get 3 offers
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -350,7 +368,11 @@
                 justify-content-center
               "
             >
-              <img src="./assets/images/im.png" class="h-fitContent" alt="" />
+            <img
+                src="./assets/images/im-2.png"
+                class="man-img"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -359,19 +381,21 @@
         <div class="section2-container">
           <div class="bg-white py-4 px-3 company-deals">
             <!-- title -->
-            <div class="title-container">
-              <h3
-                class="
-                  dark-blue2
-                  py-0 py-lg-4 py-xl-4
-                  m-0
-                  fs-50
-                  font-weight-bold
-                  text-center
-                "
-              >
-                Get Deals from 1500+ Companies
-              </h3>
+            <div class="title-container d-flex justify-content-center">
+              <div class="col-12 col-lg-8 col-xl-8">
+                <h3
+                  class="
+                    dark-blue2
+                    py-0 py-lg-4 py-xl-4
+                    m-0
+                    fs-50
+                    font-weight-bold
+                    text-center
+                  "
+                >
+                  Get Deals from 1500+ Companies
+                </h3>
+              </div>
             </div>
             <div class="py-5">
               <p class="dark-blue2 m-0 fs-17 font-weight-bold text-center">
@@ -473,7 +497,7 @@
               <!-- 1st -->
               <div class="common-box px-3">
                 <div class="py-4">
-                  <h6 class="m-0 dark-blue2 font-weight-bold py-2">
+                  <h6 class="m-0 dark-blue2 font-weight-normal fs-23 py-2">
                     Fill out the form
                   </h6>
                   <p class="darkgray-color m-0 py-2">
@@ -484,7 +508,7 @@
               <!-- 2nd -->
               <div class="common-box px-3">
                 <div class="py-4">
-                  <h6 class="m-0 dark-blue2 font-weight-bold py-2">
+                  <h6 class="m-0 dark-blue2 font-weight-normal fs-23 py-2">
                     We will contact you
                   </h6>
                   <p class="darkgray-color m-0 py-2">
@@ -496,7 +520,7 @@
               <!-- 3rd -->
               <div class="common-box px-3">
                 <div class="py-4">
-                  <h6 class="m-0 dark-blue2 font-weight-bold py-2">
+                  <h6 class="m-0 dark-blue2 font-weight-normal fs-23 py-2">
                     You will receive 3 offers
                   </h6>
                   <p class="darkgray-color m-0 py-2">
@@ -508,7 +532,7 @@
               <!-- 4th -->
               <div class="common-box px-3">
                 <div class="py-4 active-box-border">
-                  <h6 class="m-0 primary font-weight-bold py-2">
+                  <h6 class="m-0 primary font-weight-normal fs-23 py-2">
                     Choose your solution
                   </h6>
                   <p class="darkgray-color text-secondary m-0 py-2">
@@ -615,6 +639,7 @@
           >
             <div
               class="
+                z-index-1
                 col-10 col-lg-4 col-xl-4
                 py-2 py-lg-0 py-xl-0
                 absolute-img-container
@@ -627,7 +652,16 @@
             </div>
           </div>
           <!-- 2nd -->
-          <div class="d-flex justify-content-center py-2 py-lg-5 py-xl-5">
+          <div
+            class="
+              d-flex
+              justify-content-center
+              pt-2
+              pb-2 pb-2 pb-lg-0 pb-xl-0
+              pt-lg-5 pt-xl-5
+              z-index-1
+            "
+          >
             <div class="col-10 col-lg-6 col-xl-6">
               <h2 class="text-center dark-blue2 font-weight-bold">
                 See what our customers say about our service
@@ -637,12 +671,18 @@
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s,
               </p>
+              <div class="d-flex justify-content-center pt-5">
+                <button class="active-button px-3 py-2 br-radius7">
+                  Read more about Ageros here
+                </button>
+              </div>
             </div>
           </div>
         </div>
         <!-- 3rd row -->
         <div
           class="
+            z-index-1
             d-flex
             justify-content-center
             flex-column
@@ -656,6 +696,7 @@
           </div>
           <div
             class="
+              z-index-1
               col-10 col-lg-4 col-xl-4
               py-2 py-lg-0 py-xl-0
               absolute-img-container2
@@ -700,35 +741,44 @@
             <div
               class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
             >
-              <p class="font-weight-bold link m-0 link">Accountant</p>
+              <p class="font-weight-bold m-0 link">Accountant</p>
               <div class="bottom-line"></div>
             </div>
             <!-- 2nd box -->
             <div
               class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
             >
-              <p class="font-weight-bold link m-0 link">Property Manager</p>
+              <p class="font-weight-bold m-0 link">Property Manager</p>
               <div class="bottom-line"></div>
             </div>
             <!-- 3rd box -->
             <div
               class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
             >
-              <p class="font-weight-bold link m-0 link">Annual accounts</p>
+              <p class="font-weight-bold m-0 link">Annual accounts</p>
               <div class="bottom-line"></div>
             </div>
             <!-- 4th box -->
             <div
               class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
             >
-              <p class="font-weight-bold link m-0 link">Tax advice</p>
+              <p class="font-weight-bold m-0 link">Tax advice</p>
               <div class="bottom-line"></div>
             </div>
             <!-- 5th box -->
             <div
               class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
             >
-              <p class="font-weight-bold link m-0 link">Financial Accounting</p>
+              <p class="font-weight-bold m-0 active-Link">
+                Financial Accounting
+              </p>
+              <div class="active-bottom-line"></div>
+            </div>
+            <!-- 6th box -->
+            <div
+              class="d-flex align-items-center flex-column px-2 px-lg-0 px-xl-0"
+            >
+              <p class="font-weight-bold m-0 link">VAT accounts</p>
               <div class="bottom-line"></div>
             </div>
           </div>
@@ -824,12 +874,12 @@
       <div class="position-absolute left-0">
         <img src="./assets/images/flip.png" alt="" class="w-90per" />
       </div>
-      <div class="container py-3">
+      <div class="container pt-3">
         <div
           class="d-flex flex-column justify-content-center align-items-center"
         >
           <div
-            class="col-12 px-0 d-flex flex-column flex-lg-row flex-xl-row py-5"
+            class="col-12 px-0 d-flex flex-column flex-lg-row flex-xl-row pt-5"
           >
             <!-- left side -->
             <div class="col-12 col-lg-6 col-xl-6 py-5">
@@ -919,7 +969,7 @@
                   WHY CHOOSE <span class="primary">REVIMATCH ?</span>
                 </h3>
               </div>
-              <div>
+              <div class="py-3 py-lg-5 py-xl-5">
                 <img
                   src="./assets/images/Group38619@3x.png"
                   alt=""
@@ -928,7 +978,9 @@
               </div>
             </div>
             <!-- right side -->
-            <div class="col-12 col-lg-5 col-xl-5 py-5 question-container px-0">
+            <div
+              class="col-12 col-lg-5 col-xl-5 pt-5 pb-2 question-container px-0"
+            >
               <!-- 1st box -->
               <div
                 class="
@@ -941,7 +993,7 @@
               >
                 <div class="common-box col-10 py-3 px-3">
                   <h4 class="font-weight-bold dark-blue2">You save time</h4>
-                  <p>
+                  <p class="m-0 fs-14">
                     We carefully select candidates that suit your preferences,
                     so you do not have to find and contact them yourself.
                   </p>
@@ -959,7 +1011,7 @@
               >
                 <div class="common-box col-10 py-3 px-3">
                   <h4 class="font-weight-bold dark-blue2">Personal Advice</h4>
-                  <p>
+                  <p class="m-0 fs-14">
                     Our skilled service team is ready to contact you. They will
                     review your assignment with you on the phone, so we make
                     sure we find the perfect solution.
@@ -978,7 +1030,7 @@
               >
                 <div class="common-box col-10 py-3 px-3">
                   <h4 class="font-weight-bold dark-blue2">You save money</h4>
-                  <p>
+                  <p class="m-0 fs-14">
                     By choosing a skilled accountant that matches your size and
                     needs, you can save a lot of money. Through increased
                     competition, we also make sure that our partners give you a
@@ -1000,7 +1052,7 @@
                   <h4 class="font-weight-bold dark-blue2">
                     Free & no obligation
                   </h4>
-                  <p>
+                  <p class="m-0 fs-14">
                     Revimatch service is 100% free and without obligation to
                     use. You choose whether you want to go ahead with some of
                     the offers and you do not have to pay for it whether you
@@ -1017,7 +1069,7 @@
       </div>
     </div>
     <!-- section 8 -->
-    <div class="section8-container bg-lightGreen py-5">
+    <div class="section8-container bg-lightGreen pt-5">
       <div class="position-absolute right-0 d-flex justify-content-end">
         <img
           src="./assets/images/Path8691.png"
@@ -1026,10 +1078,10 @@
         />
       </div>
       <div
-        class="container d-flex flex-column flex-lg-row flex-xl-row px-2 py-3"
+        class="container d-flex flex-column flex-lg-row flex-xl-row px-2 pt-3"
       >
         <!-- left side -->
-        <div class="col-12 col-lg-6 col-xl-6 left-side-content">
+        <div class="col-12 col-lg-6 col-xl-6 left-side-content py-4">
           <!-- title -->
           <div class="py-2">
             <h2
@@ -1068,11 +1120,18 @@
           </div>
         </div>
         <!-- right side -->
-        <div class="col-12 col-lg-6 col-xl-6 py-3 py-lg-0 py-xl-0">
+        <div
+          class="
+            col-12 col-lg-6 col-xl-6
+            py-0 py-lg-0 py-xl-0
+            d-flex
+            align-items-end
+            right-side-container
+          "
+        >
           <img
             src="./assets/images/shutterstock_453643495-removebg@3x.png"
             alt=""
-            class="w-100"
           />
         </div>
       </div>
@@ -1100,7 +1159,7 @@
               class="
                 font-weight-bold
                 fs-50
-                dark-blue2
+                dark-blue
                 text-center text-lg-left text-xl-left
               "
             >
@@ -1517,7 +1576,7 @@
                 2561 Followers
               </p>
             </div>
-            <div class="d-flex justify-content-around px-1">
+            <div class="d-flex justify-content-around px-1 py-2">
               <div
                 class="
                   common-box
@@ -1608,11 +1667,11 @@
             <div
               class="social-content-container col-10 py-3 px-2 px-lg-4 px-xl-4"
             >
-              <p class="m-0 dark-blue2 fs-12 font-weight-bold">
+              <p class="m-0 darkbrown-color font-weight-500 fs-12">
                 Revimatch har hurtigt vokset sig stor, og vækstmålene er stadig
                 ambitiøse.
               </p>
-              <p class="m-0 dark-blue2 fs-12 font-weight-bold py-4">
+              <p class="m-0 darkbrown-color font-weight-500 fs-12 py-4">
                 Gå ind og læs! 😎 Med et nyt ansigt i teamet hver anden måned
                 siden starten for tre år siden, har rollen som stifter af
                 formidlingsvirksomheden Revimatch ændret sig markant.
@@ -1626,8 +1685,10 @@
                   />
                 </div>
                 <div class="px-2">
-                  <p class="font-weight-bold m-0 fs-14">Revimatch</p>
-                  <p class="font-weight-bold m-0 fs-12 m-0 py-1">
+                  <p class="darkbrown-color font-weight-500 m-0 fs-14">
+                    Revimatch
+                  </p>
+                  <p class="darkbrown-color font-weight-500 m-0 fs-12 m-0 py-1">
                     about 6 months ago
                   </p>
                 </div>
@@ -1647,7 +1708,7 @@
           "
         >
           <div class="px-3 py-5 py-lg-0 py-xl-0">
-            <h1 class="fs-32 font-weight-bold">
+            <h1 class="fs-32 font-weight-bold darkbrown-color">
               Explanation about you Social Media For Interaction.
             </h1>
             <div class="py-4">
@@ -1695,7 +1756,7 @@
               "
             >
               <div class="px-3">
-                <h1 class="fs-32 font-weight-bold">
+                <h1 class="fs-32 darkbrown-color font-weight-bold">
                   Explanation about you Social Media For Interaction.
                 </h1>
                 <div class="py-4">
@@ -1726,11 +1787,11 @@
                     px-2 px-lg-4 px-xl-4
                   "
                 >
-                  <p class="m-0 dark-blue2 fs-12 font-weight-bold">
+                  <p class="m-0 fs-12 darkbrown-color font-weight-500">
                     Revimatch har hurtigt vokset sig stor, og vækstmålene er
                     stadig ambitiøse.
                   </p>
-                  <p class="m-0 dark-blue2 fs-12 font-weight-bold py-4">
+                  <p class="m-0 darkbrown-color font-weight-500 fs-12 py-4">
                     Gå ind og læs! 😎 Med et nyt ansigt i teamet hver anden
                     måned siden starten for tre år siden, har rollen som stifter
                     af formidlingsvirksomheden Revimatch ændret sig markant.
@@ -1744,8 +1805,19 @@
                       />
                     </div>
                     <div class="px-2">
-                      <p class="font-weight-bold m-0 fs-14">Revimatch</p>
-                      <p class="font-weight-bold m-0 fs-12 m-0 py-1">
+                      <p class="darkbrown-color font-weight-500 m-0 fs-14">
+                        Revimatch
+                      </p>
+                      <p
+                        class="
+                          darkbrown-color
+                          font-weight-500
+                          m-0
+                          fs-12
+                          m-0
+                          py-1
+                        "
+                      >
                         about 6 months ago
                       </p>
                     </div>
@@ -1777,11 +1849,11 @@
                   px-2 px-lg-4 px-xl-4
                 "
               >
-                <p class="m-0 dark-blue2 fs-12 font-weight-bold">
+                <p class="m-0 fs-12 darkbrown-color font-weight-500">
                   Revimatch har hurtigt vokset sig stor, og vækstmålene er
                   stadig ambitiøse.
                 </p>
-                <p class="m-0 dark-blue2 fs-12 font-weight-bold py-4">
+                <p class="m-0 darkbrown-color font-weight-500 fs-12 py-4">
                   Gå ind og læs! 😎 Med et nyt ansigt i teamet hver anden måned
                   siden starten for tre år siden, har rollen som stifter af
                   formidlingsvirksomheden Revimatch ændret sig markant.
@@ -1795,8 +1867,12 @@
                     />
                   </div>
                   <div class="px-2">
-                    <p class="font-weight-bold m-0 fs-14">Revimatch</p>
-                    <p class="font-weight-bold m-0 fs-12 m-0 py-1">
+                    <p class="darkbrown-color font-weight-500 m-0 fs-14">
+                      Revimatch
+                    </p>
+                    <p
+                      class="darkbrown-color font-weight-500 m-0 fs-12 m-0 py-1"
+                    >
                       about 6 months ago
                     </p>
                   </div>
@@ -1816,7 +1892,7 @@
             "
           >
             <div class="px-3 py-5 py-lg-0 py-xl-0">
-              <h1 class="fs-32 font-weight-bold">
+              <h1 class="fs-32 darkbrown-color font-weight-bold">
                 Explanation about you Social Media For Interaction.
               </h1>
               <div class="py-4">
@@ -1862,13 +1938,17 @@
               </h6>
               <h2
                 class="
-                  font-weight-bold
+                  font-weight-400
                   fs-32
                   text-center text-lg-left text-xl-left
                 "
               >
                 Follow us on Instagram
               </h2>
+              <div class="col-6 col-lg-5 col-xl-5 px-0 py-1">
+                <hr class="bg-primary pt-1" />
+              </div>
+              <p class="fs-16 py-2 dark-blue2">Our Company Success stories</p>
             </div>
           </div>
           <!-- right side -->
@@ -2115,7 +2195,7 @@
               <p class="text-white px-3 m-0">Denmark</p>
             </div>
             <div>
-              <img src="./assets/images/arrowdown.png" class="h-15px" />
+              <img src="./assets/images/down-arrow.png" class="h-15px" />
             </div>
           </div>
           <!-- 2nd -->
@@ -2149,6 +2229,15 @@
 
       function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
+      }
+
+      function myFunction() {
+        var x = document.getElementById("section1-checkboxes-container");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
       }
     </script>
   </body>
