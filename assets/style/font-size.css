@@ -1,5 +1,11 @@
+.fs-11{
+    font-size: 11px;
+}
 .fs-12{
     font-size: 12px;
+}
+.fs-13{
+    font-size: 13px;
 }
 .fs-14{
     font-size: 14px;
@@ -13,8 +19,14 @@
 .fs-17{
     font-size: 17px;
 }
+.fs-18{
+    font-size: 17px;
+}
 .fs-19{
     font-size: 19px;
+}
+.fs-22{
+    font-size: 22px;
 }
 .fs-23{
     font-size: 23px;
@@ -28,9 +40,15 @@
 .fs-32{
     font-size: 32px;
 }
+.fs-38{
+    font-size: 38px;
+}
 .fs-50{
     font-size: 50px;
 }
 .fs-60{
     font-size: 60px;
+}
+.fs-100{
+    font-size: 100px;
 }

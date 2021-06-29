@@ -2,6 +2,8 @@
 @import "./font-size.css";
 @import "./width-height.css";
 @import "./common.css";
+@import "./partners.css";
+@import "./steps.css";
 
 body {
   margin: 0px;
@@ -9,7 +11,7 @@ body {
   font-family: "Rubik", sans-serif !important;
 }
 /* section 1 css stars from here */
-.section1-container {
+.bg-image-section1 {
   background-image: url("../images/section1.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,10 +110,6 @@ body {
   margin: 51px 0px 0px 0px;
 }
 @media (max-width: 991px) and (min-width: 320px) {
-  /* .section1-container .section1-body-container .checkboxes-lists {
-    position: initial!important;
-    margin: 0px;
-  } */
   .section1-container .section1-body-container .right-side .man-img {
     position: inherit;
     height: 250px;
