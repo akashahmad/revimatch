@@ -4,6 +4,7 @@
 @import "./common.css";
 @import "./partners.css";
 @import "./steps.css";
+@import "./accountant.css";
 
 body {
   margin: 0px;
@@ -383,4 +384,8 @@ body {
   border-radius: 13px;
   box-shadow: 0 6px 12px 0 rgba(20, 20, 20, 0.28);
   background-color: #041544;
+}
+
+.footer-container #language-show{
+  display: none;
 }

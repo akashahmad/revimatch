@@ -368,11 +368,7 @@
                 justify-content-center
               "
             >
-            <img
-                src="./assets/images/im-2.png"
-                class="man-img"
-                alt=""
-              />
+              <img src="./assets/images/im-2.png" class="man-img" alt="" />
             </div>
           </div>
         </div>
@@ -2194,29 +2190,31 @@
               <img src="./assets/images/download.png" class="" alt="" />
               <p class="text-white px-3 m-0">Denmark</p>
             </div>
-            <div>
+            <div class="cursor-pointer" onclick="showLanguage()">
               <img src="./assets/images/down-arrow.png" class="h-15px" />
             </div>
           </div>
-          <!-- 2nd -->
-          <div class="d-flex justify-content-between align-items-center py-2">
-            <div class="d-flex align-items-center">
-              <img src="./assets/images/sweden.png" class="" alt="" />
-              <p class="text-white px-3 m-0">Sweden</p>
+          <div id="language-show">
+            <!-- 2nd -->
+            <div class="d-flex justify-content-between align-items-center py-2">
+              <div class="d-flex align-items-center">
+                <img src="./assets/images/sweden.png" class="" alt="" />
+                <p class="text-white px-3 m-0">Sweden</p>
+              </div>
             </div>
-          </div>
-          <!-- 3rd -->
-          <div class="d-flex justify-content-between align-items-center py-2">
-            <div class="d-flex align-items-center">
-              <img src="./assets/images/download.png" class="" alt="" />
-              <p class="text-white px-3 m-0">Norway</p>
+            <!-- 3rd -->
+            <div class="d-flex justify-content-between align-items-center py-2">
+              <div class="d-flex align-items-center">
+                <img src="./assets/images/download.png" class="" alt="" />
+                <p class="text-white px-3 m-0">Norway</p>
+              </div>
             </div>
-          </div>
-          <!-- 4th -->
-          <div class="d-flex justify-content-between align-items-center py-2">
-            <div class="d-flex align-items-center">
-              <img src="./assets/images/uk.png" class="" alt="" />
-              <p class="text-white px-3 m-0">United Kingdom</p>
+            <!-- 4th -->
+            <div class="d-flex justify-content-between align-items-center py-2">
+              <div class="d-flex align-items-center">
+                <img src="./assets/images/uk.png" class="" alt="" />
+                <p class="text-white px-3 m-0">United Kingdom</p>
+              </div>
             </div>
           </div>
         </div>
@@ -2233,6 +2231,15 @@
 
       function myFunction() {
         var x = document.getElementById("section1-checkboxes-container");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+      function showLanguage() {
+        var x = document.getElementById("language-show");
         if (x.style.display === "block") {
           x.style.display = "none";
         } else {

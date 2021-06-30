@@ -8,9 +8,39 @@
   border-radius: 34px;
   z-index: 1;
   box-shadow: 0 10px 40px 0 rgba(11, 79, 230, 0.16);
-  margin: -10px 0px 0px 0px;
+  margin: 2px 0px 0px 0px;
+}
+.section2-partner-container .common-padding-imgs{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+@media (max-width: 991px) and (min-width: 320px) {
+  .section2-partner-container .common-padding-imgs{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 /* margket section */
+.market-section-container .common-lr-50p{
+  padding: 0px 50px;
+}
+.market-section-container .common-lr-40p{
+  padding: 0px 40px;
+}
+.market-section-container .lr-padding-20p{
+  padding: 0px 60px 0px 15px;
+}
+@media (max-width: 991px) and (min-width: 320px) {
+  .market-section-container .common-lr-50p{
+    padding: 0px 10px;
+  }
+  .market-section-container .common-lr-40p{
+    padding: 0px 10px;
+  }
+  .market-section-container .lr-padding-20p{
+    padding: 0px 10px;
+  }
+}
 .market-section-container .left-side-description h5 {
   color: #3b3a3a;
 }
@@ -102,17 +132,21 @@ p {
     margin: 0px 0px 0px 0px;
   }
 }
+.section6-partner-container .common-box-content .button-common{
+  padding: 10px 45px;
+  border-radius: 25px;
+}
 .section6-partner-container .common-box-content {
   padding: 15% 0px 15% 0px;
 }
 .section6-partner-container .common-box-content h5 {
   color: #1a264a;
 }
-.section6-partner-container .common-box-content h5 {
+.section6-partner-container .common-box-content p {
   color: #585e68;
 }
 .section6-partner-container .common-box-content .accounts-images-container img {
-  height: 280px;
+  height: 260px;
 }
 @media (max-width: 1200px) and (min-width: 320px) {
   .section6-partner-container
@@ -126,8 +160,9 @@ p {
 /* section 9 */
 .section9-revimatch .right-sideImage-container img {
   position: absolute;
-  height: 340px;
-  margin: 28px 0px 0px -72px;
+  height: 375px;
+  margin: 0px 0px -2px -72px;
+  bottom: 0px;
 }
 @media (max-width: 1186px) and (min-width: 992px) {
   .section9-revimatch .right-sideImage-container img {
@@ -211,10 +246,10 @@ p {
   z-index: 1;
 }
 .report-section .right-side-reportImg img {
-  height: 400px;
+  height: 415px;
 }
 
-@media (max-width: 1200px) and (min-width: 992px) {
+@media (max-width: 1230px) and (min-width: 992px) {
   .report-section .right-side-reportImg img {
     height: 300px;
   }

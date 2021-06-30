@@ -1,0 +1,62 @@
+.accountant-bg-image {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.accountant-bg-image .curve-line-accountantSection1{
+    position: absolute;
+    left: 0px;
+    margin: 0px 0px 0px -114px;
+
+}
+.accountant-bg-image .accoutant-section2 .common-lg-dot {
+  height: 10px;
+  border-radius: 50%;
+  background: #000;
+  margin: 13px 5px;
+  padding: 7px;
+}
+.accountant-bg-image .accoutant-section2 .common-sm-dot {
+  height: 6px;
+  border-radius: 50%;
+  background: #000;
+  margin: 11px 7px;
+  padding: 5px;
+}
+.chooseAccountant-container .question-container .common-box-container:hover h4 {
+  color: #0b4fe6 !important;
+}
+.chooseAccountant-container .question-container .common-box-container:hover p {
+  color: rgba(33, 56, 66, 0.6);
+}
+.chooseAccountant-container .question-container .common-box-container {
+  border-left: 2px solid #fff;
+}
+.chooseAccountant-container .question-container .common-box-container:hover {
+  border-left: 2px solid #0b4fe6;
+}
+
+.chooseAccountant-container
+  .question-container
+  .common-box-container
+  .common-box {
+  box-shadow: 30px 30px 30px 0 rgba(11, 79, 230, 0.1);
+  border-radius: 24px;
+  background-color: #ffffff;
+}
+/* section3-accoutant */
+.section3-accoutant .card-header {
+    background-color: #eff9ff!important;
+    border-bottom: none!important;
+    padding: 10px 5px!important;
+}
+.section3-accoutant .card-body {
+    background-color: #eff9ff!important;
+}
+.section3-accoutant .card {
+    border: none!important;
+}
+/* section5 */
+.section5-accountantContainer .curv-line{
+    margin: 184px 0px 0px 0px;
+}
