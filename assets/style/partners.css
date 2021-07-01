@@ -10,34 +10,34 @@
   box-shadow: 0 10px 40px 0 rgba(11, 79, 230, 0.16);
   margin: 2px 0px 0px 0px;
 }
-.section2-partner-container .common-padding-imgs{
+.section2-partner-container .common-padding-imgs {
   padding-left: 35px;
   padding-right: 35px;
 }
 @media (max-width: 991px) and (min-width: 320px) {
-  .section2-partner-container .common-padding-imgs{
+  .section2-partner-container .common-padding-imgs {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 /* margket section */
-.market-section-container .common-lr-50p{
+.market-section-container .common-lr-50p {
   padding: 0px 50px;
 }
-.market-section-container .common-lr-40p{
+.market-section-container .common-lr-40p {
   padding: 0px 40px;
 }
-.market-section-container .lr-padding-20p{
+.market-section-container .lr-padding-20p {
   padding: 0px 60px 0px 15px;
 }
 @media (max-width: 991px) and (min-width: 320px) {
-  .market-section-container .common-lr-50p{
+  .market-section-container .common-lr-50p {
     padding: 0px 10px;
   }
-  .market-section-container .common-lr-40p{
+  .market-section-container .common-lr-40p {
     padding: 0px 10px;
   }
-  .market-section-container .lr-padding-20p{
+  .market-section-container .lr-padding-20p {
     padding: 0px 10px;
   }
 }
@@ -132,7 +132,7 @@ p {
     margin: 0px 0px 0px 0px;
   }
 }
-.section6-partner-container .common-box-content .button-common{
+.section6-partner-container .common-box-content .button-common {
   padding: 10px 45px;
   border-radius: 25px;
 }
@@ -158,6 +158,11 @@ p {
   }
 }
 /* section 9 */
+@media (max-width: 991px) and (min-width: 320px) {
+  .section9-revimatch .main-title-contaienr {
+    font-size: 20px;
+  }
+}
 .section9-revimatch .right-sideImage-container img {
   position: absolute;
   height: 375px;
@@ -216,12 +221,12 @@ p {
   }
 }
 /* .carousal-container */
-.carousal-container .card-header span{
+.carousal-container .card-header span {
   padding: 10px;
 }
 @media (max-width: 991px) and (min-width: 320px) {
-  .carousal-container .card-header span{
-    padding: 4px!important;
+  .carousal-container .card-header span {
+    padding: 4px !important;
   }
 }
 /* report-section */
@@ -267,13 +272,13 @@ p {
 }
 /* 
 wide-rangeOptions-container */
-.wide-rangeOptions-container .common-box{
+.wide-rangeOptions-container .common-box {
   border-radius: 38px;
   border: solid 1px #d9d9d9;
   background-color: #ffffff;
   cursor: pointer;
 }
-.wide-rangeOptions-container .common-box:hover{
+.wide-rangeOptions-container .common-box:hover {
   box-shadow: 0 6px 99px 0 rgba(11, 79, 230, 0.12);
   border: solid 1px #fff;
 }
