@@ -81,7 +81,8 @@
               <div class="d-none d-lg-block d-xl-block">
                 <button
                   class="inActive-button px-4 py-2 br-radius7"
-                  onclick="window.location.href='steps.html'"
+                  data-toggle="modal"
+                  data-target=".bd-example-modal-lg"
                 >
                   Get a call
                 </button>
@@ -107,14 +108,18 @@
               <a href="#">Guides</a>
               <a href="#">About Revimatch</a>
               <a href="#">Partners</a>
-              <div class="py-2 d-flex justify-content-center">
+              <div class="py-2 d-flex justify-content-center button-container">
                 <div class="col-10 px-0">
-                  <button class="inActive-button px-4 py-2 br-radius7 w-100">
+                  <button
+                    class="inActive-button px-4 py-2 br-radius7 w-100"
+                    data-toggle="modal"
+                    data-target=".bd-example-modal-lg"
+                  >
                     Get a call
                   </button>
                 </div>
               </div>
-              <div class="py-2 d-flex justify-content-center">
+              <div class="py-2 d-flex justify-content-center button-container">
                 <div class="col-10 px-0">
                   <button class="active-button px-4 py-2 br-radius7 w-100">
                     Get Free quote
@@ -2223,13 +2228,526 @@
         </div>
       </div>
     </div>
+    <!-- modal -->
+    <div
+      class="modal fade bd-example-modal-lg steps-modal-container"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content br-radius24">
+          <div class="steps-container py-0 d-flex justify-content-center">
+            <!-- step1 -->
+            <div class="box-shadow br-radius24 col-12 pt-4 pb-5" id="step1">
+              <div class="close-container">
+                <div
+                  class="cross-img-container cursor-pointer"
+                  onclick="window.location.href='index.html'"
+                >
+                  <img src="./assets/images/close.png" alt="" class="h-15px" />
+                </div>
+              </div>
+              <div class="py-4">
+                <h4 class="fs-32 font-weight-bold dark-blue2 text-center">
+                  Let's get started
+                </h4>
+              </div>
+              <div class="d-flex justify-content-center py-5">
+                <div class="col-10 col-lg-8 col-xl-8 px-4">
+                  <img src="./assets/images/step1.png" alt="" class="w-100" />
+                </div>
+              </div>
+              <div
+                class="d-flex justify-content-center py-5 checkbox-container"
+              >
+                <div class="col-10 col-lg-8 col-xl-8 px-0">
+                  <!-- checkboxes -->
+                  <div
+                    class="
+                      d-flex
+                      flex-column flex-xl-row flex-lg-row
+                      checkboxes-button-section1-container
+                    "
+                  >
+                    <div
+                      class="
+                        bg-white
+                        w-100
+                        checkboxes-lists2
+                        box-shadow2
+                        br-radius12
+                        z-index-1
+                        position-absolute
+                      "
+                    >
+                      <div
+                        class="
+                          d-flex
+                          justify-content-between
+                          w-100
+                          align-items-center
+                          py-3
+                          px-4
+                        "
+                        onclick="myFunction()"
+                      >
+                        <h6 class="m-0 fs-17 dark-blue2 font-weight-500">
+                          ACCOUNTANT
+                        </h6>
+                        <img
+                          src="./assets/images/down-arrow-green.png"
+                          class="h-15px"
+                          alt=""
+                        />
+                      </div>
+                      <!-- checkboxes -->
+                      <div
+                        class="pt-4 py-1 px-4"
+                        id="section1-checkboxes-container"
+                      >
+                        <div class="form-check d-flex">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="exampleRadios"
+                            id="exampleRadios1"
+                            value="option1"
+                            checked
+                          />
+                          <label
+                            class="form-check-label fs-15 primary"
+                            for="exampleRadios1"
+                          >
+                            <span
+                              ><img
+                                src="./assets/images/user.png"
+                                alt=""
+                                class="px-3 h-15px"
+                            /></span>
+                            Accountant
+                          </label>
+                        </div>
+                        <div class="form-check py-2 d-flex">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="exampleRadios"
+                            id="exampleRadios1"
+                            value="option1"
+                          />
+                          <label
+                            class="form-check-label fs-15 primary"
+                            for="exampleRadios1"
+                          >
+                            <span
+                              ><img
+                                src="./assets/images/user.png"
+                                alt=""
+                                class="px-3 h-15px"
+                            /></span>
+                            Accountant
+                          </label>
+                        </div>
+                        <div class="form-check py-1 d-flex">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="exampleRadios"
+                            id="exampleRadios1"
+                            value="option1"
+                          />
+                          <label
+                            class="form-check-label fs-15 primary"
+                            for="exampleRadios1"
+                          >
+                            <span
+                              ><img
+                                src="./assets/images/gavel.png"
+                                alt=""
+                                class="px-3 h-15px"
+                            /></span>
+                            Lawyer
+                          </label>
+                        </div>
+                        <div class="form-check py-2 d-flex">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="exampleRadios"
+                            id="exampleRadios1"
+                            value="option1"
+                          />
+                          <label
+                            class="form-check-label fs-15 primary"
+                            for="exampleRadios1"
+                          >
+                            <span
+                              ><img
+                                src="./assets/images/gavel.png"
+                                alt=""
+                                class="px-3 h-15px"
+                            /></span>
+                            Lawyer
+                          </label>
+                        </div>
+                        <div class="form-check py-2 d-flex">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="exampleRadios"
+                            id="exampleRadios1"
+                            value="option1"
+                          />
+                          <label
+                            class="form-check-label fs-15 primary"
+                            for="exampleRadios1"
+                          >
+                            <span
+                              ><img
+                                src="./assets/images/request.png"
+                                alt=""
+                                class="px-3 h-15px"
+                            /></span>
+                            I have doubts
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center pt-5">
+                <div
+                  class="
+                    buttons-container
+                    d-flex
+                    flex-column flex-lg-row flex-xl-row
+                    justify-content-center
+                    justify-content-lg-between
+                    justify-content-xl-between
+                    align-items-center
+                    col-12
+                    px-1
+                    col-lg-8 col-xl-8
+                  "
+                >
+                  <!-- left side -->
+                  <div
+                    class="back-button d-flex align-items-center cursor-pointer"
+                    onclick="window.location.href='index.html'"
+                  >
+                    <img
+                      src="./assets/images/down-arrow-green2.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <p class="px-3 m-0 fs-16 firtStep-backBtn">BACK</p>
+                  </div>
+                  <div class="py-3 py-lg-0 py-xl-0">
+                    <button
+                      class="
+                        active-button
+                        br-radius7
+                        activebutton-padding
+                        fs-22
+                      "
+                      onclick="activeStep(`step2`)"
+                    >
+                      Next
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- step2 -->
+            <div class="box-shadow br-radius24 col-12 pt-4 pb-5" id="step2">
+              <div class="close-container">
+                <div
+                  class="cross-img-container cursor-pointer"
+                  onclick="window.location.href='index.html'"
+                >
+                  <img src="./assets/images/close.png" alt="" class="h-15px" />
+                </div>
+              </div>
+              <div class="py-4">
+                <h4 class="fs-32 font-weight-bold dark-blue2 text-center">
+                  Let's get started
+                </h4>
+              </div>
+              <div class="d-flex justify-content-center py-5">
+                <div class="col-10 col-lg-8 col-xl-8 px-4">
+                  <img src="./assets/images/step2.png" alt="" class="w-100" />
+                </div>
+              </div>
+              <div class="d-flex justify-content-center py-3">
+                <div class="col-10 col-lg-8 col-xl-8 px-0 text-area-container">
+                  <textarea
+                    class="
+                      border-0
+                      bg-white
+                      outline-none
+                      box-shadow2
+                      px-3
+                      py-3
+                      w-100
+                      br-radius12
+                    "
+                    rows="5"
+                    onkeyup="step2Option(this.value)"
+                    placeholder="GIVE A BRIEF DESCRIPTION OF YOUR CASE"
+                  ></textarea>
+                  <p class="dark-blue2 fs-15 m-0 py-3 px-1 font-weight-300">
+                    YOU DO NOT NEED TO PROVIDE A DETAILED DESCRIPTION. OUR
+                    EXPERTS WILL VALIDATE YOUR CASE BEFORE WE MATCH YOU WITH
+                    RELEVANT ADVISORS.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div
+                  class="
+                    buttons-container
+                    d-flex
+                    flex-column flex-lg-row flex-xl-row
+                    justify-content-center
+                    justify-content-lg-between
+                    justify-content-xl-between
+                    align-items-center
+                    col-12
+                    px-1
+                    col-lg-8 col-xl-8
+                  "
+                >
+                  <!-- left side -->
+                  <div
+                    class="back-button d-flex align-items-center cursor-pointer"
+                    onclick="activeStep('step1')"
+                  >
+                    <img
+                      src="./assets/images/down-arrow-green2.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <p class="px-3 m-0 fs-16 primary">BACK</p>
+                  </div>
+                  <div class="py-3 py-lg-0 py-xl-0">
+                    <button
+                      class="
+                        active-button
+                        br-radius7
+                        activebutton-padding
+                        fs-22
+                      "
+                      id="step2Button"
+                      onclick="activeStep('step3')"
+                    >
+                      Skip this Step
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- step3 -->
+            <div class="box-shadow br-radius24 col-12 pt-4 pb-5" id="step3">
+              <div class="close-container">
+                <div
+                  class="cross-img-container cursor-pointer"
+                  onclick="window.location.href='index.html'"
+                >
+                  <img src="./assets/images/close.png" alt="" class="h-15px" />
+                </div>
+              </div>
+              <div class="py-4">
+                <h4 class="fs-32 font-weight-bold dark-blue2 text-center">
+                  Let's get started
+                </h4>
+              </div>
+              <div class="d-flex justify-content-center py-5">
+                <div class="col-10 col-lg-8 col-xl-8 px-4">
+                  <img src="./assets/images/step3.png" alt="" class="w-100" />
+                </div>
+              </div>
+              <div class="d-flex justify-content-center py-3">
+                <div class="col-10 col-lg-8 col-xl-8 px-0 px-0">
+                  <!-- 1st row -->
+                  <div
+                    class="
+                      d-flex
+                      justify-content-between
+                      flex-wrap
+                      py-0 py-lg-2 py-xl-2
+                    "
+                  >
+                    <div class="col-12 col-lg-6 col-xl-6 px-2">
+                      <input
+                        class="
+                          w-100
+                          py-3
+                          border-0
+                          box-shadow2
+                          outline-none
+                          px-3
+                          br-radius12
+                        "
+                        placeholder="Enter Name"
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-lg-6 col-xl-6 px-2 py-2 py-lg-0 py-xl-0"
+                    >
+                      <input
+                        class="
+                          w-100
+                          py-3
+                          border-0
+                          box-shadow2
+                          outline-none
+                          px-3
+                          br-radius12
+                        "
+                        placeholder="Enter Your Email"
+                      />
+                    </div>
+                  </div>
+                  <!-- 2nd row -->
+                  <div
+                    class="
+                      d-flex
+                      justify-content-between
+                      flex-wrap
+                      py-0 py-lg-2 py-xl-2
+                    "
+                  >
+                    <div class="col-12 col-lg-6 col-xl-6 px-2">
+                      <input
+                        class="
+                          w-100
+                          py-3
+                          border-0
+                          box-shadow2
+                          outline-none
+                          px-3
+                          br-radius12
+                        "
+                        placeholder="Enter Phone Number"
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-lg-6 col-xl-6 px-2 py-2 py-lg-0 py-xl-0"
+                    >
+                      <input
+                        class="
+                          w-100
+                          py-3
+                          border-0
+                          box-shadow2
+                          outline-none
+                          px-3
+                          br-radius12
+                        "
+                        placeholder="Enter Phone Location"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="
+                      form-check
+                      d-flex
+                      flex-wrap
+                      justify-content-between
+                      pl-5
+                      pr-3
+                      pt-5
+                      pb-3
+                      checkbox-privay-content
+                    "
+                  >
+                    <div class="d-flex">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios1"
+                        value="option1"
+                        checked
+                      />
+                      <label
+                        class="form-check-label fs-11"
+                        for="exampleRadios1"
+                      >
+                        <span class="font-weight-bold px-2">REVIMATCH </span> IS
+                        WELCOME TO CONTACT ME VIA EMAIL
+                      </label>
+                    </div>
+                    <div>
+                      <p class="m-0 fs-11">
+                        READ OUR
+                        <span class="primary font-weight-500"
+                          >PRIVACY POLICY</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div
+                  class="
+                    buttons-container
+                    d-flex
+                    flex-column flex-lg-row flex-xl-row
+                    justify-content-center
+                    justify-content-lg-between
+                    justify-content-xl-between
+                    align-items-center
+                    col-12
+                    px-1
+                    col-lg-8 col-xl-8
+                  "
+                >
+                  <!-- left side -->
+                  <div
+                    class="back-button d-flex align-items-center cursor-pointer"
+                    onclick="activeStep('step2')"
+                  >
+                    <img
+                      src="./assets/images/down-arrow-green2.png"
+                      alt=""
+                      class="h-15px"
+                    />
+                    <p class="px-3 m-0 fs-16 primary">BACK</p>
+                  </div>
+                  <!-- right side -->
+                  <div class="py-3 py-lg-0 py-xl-0">
+                    <button
+                      class="
+                        active-button
+                        br-radius7
+                        activebutton-padding
+                        fs-22
+                      "
+                      onclick="window.location.href='partners.html'"
+                    >
+                      Get 3 Offers - Free and without obligation
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal ends here -->
     <script>
       function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("mySidenav").classList.add("active");
       }
 
       function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("mySidenav").classList.remove("active");
       }
 
       function myFunction() {
@@ -2238,6 +2756,39 @@
           x.style.display = "none";
         } else {
           x.style.display = "block";
+        }
+      }
+
+      var step2Value;
+      document.getElementById("step2Button").innerHTML = "Skip this Step";
+      function step2Option(value) {
+        step2Value = value;
+        if (step2Value !== "") {
+          document.getElementById("step2Button").innerHTML =
+            "Proceed to the last step";
+        } else {
+          document.getElementById("step2Button").innerHTML = "Skip this Step";
+        }
+      }
+      function activeStep(step) {
+        var step1 = document.getElementById("step1");
+        var step2 = document.getElementById("step2");
+        var step3 = document.getElementById("step3");
+        if (step === "step1") {
+          step1.style.display = "block";
+          step2.style.display = "none";
+          step3.style.display = "none";
+          step4.style.display = "none";
+        } else if (step === "step2") {
+          step1.style.display = "none";
+          step2.style.display = "block";
+          step3.style.display = "none";
+          step4.style.display = "none";
+        } else if (step === "step3") {
+          step1.style.display = "none";
+          step2.style.display = "none";
+          step3.style.display = "block";
+          step4.style.display = "none";
         }
       }
 

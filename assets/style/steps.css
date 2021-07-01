@@ -1,3 +1,6 @@
+.steps-modal-container .modal-content{
+  border-radius: 24px!important;
+}
 .steps-container .activebutton-padding {
   padding: 15px 28px;
 }
