@@ -1,55 +1,68 @@
-.steps-modal-container .modal-content{
-  border-radius: 24px!important;
-}
-.steps-container .activebutton-padding {
-  padding: 15px 28px;
-}
-.steps-container .close-container {
-  position: absolute;
-  right: 0;
-  padding: 0px 0px 8px 8px;
-  margin: -38px -16px 0px 0px;
-  background: #f6f6f7;
-  border-radius: 22px;
-}
-@media (max-width: 600px) and (min-width: 320px) {
-  .steps-container .close-container {
-    position: absolute;
-    right: 0;
-    padding: 0px 0px 8px 8px;
-    margin: -38px -0px 0px 0px;
-    background: #f6f6f7;
-    border-radius: 22px;
-  }
-}
-.steps-container .close-container .cross-img-container {
-  padding: 10px 15px;
-  background: #0b4fe6;
-  border-radius: 15px;
-}
-.steps-container .checkbox-container h6 {
-  opacity: 70%;
-}
-.steps-container .buttons-container .back-button .firtStep-backBtn {
-  color: #a3a3a3;
-}
-.steps-container .text-area-container textarea {
-  opacity: 0.7;
-}
-.steps-container .checkbox-privay-content input {
-  margin: 0px 0px 0px -12px;
+.steps-modal-container .modal-content {
+    border-radius: 24px!important;
 }
 
+.steps-container .activebutton-padding {
+    padding: 15px 28px;
+}
+
+.steps-container .close-container {
+    position: absolute;
+    right: 0;
+    /* padding: 0px 0px 8px 8px; */
+    margin: -38px -16px 0px 0px;
+    background: #f6f6f7;
+    border-radius: 22px;
+}
+
+@media (max-width: 600px) and (min-width: 320px) {
+    .steps-container .close-container {
+        position: absolute;
+        right: 0;
+        /* padding: 0px 0px 8px 8px; */
+        margin: -38px -0px 0px 0px;
+        background: #f6f6f7;
+        border-radius: 22px;
+    }
+}
+
+.steps-container .close-container .cross-img-container {
+    padding: 10px 15px;
+    background: #0b4fe6;
+    border-radius: 15px;
+}
+
+.steps-container .checkbox-container h6 {
+    opacity: 70%;
+}
+
+.steps-container .buttons-container .back-button .firtStep-backBtn {
+    color: #a3a3a3;
+}
+
+.steps-container .text-area-container textarea {
+    opacity: 0.7;
+}
+
+.steps-container .checkbox-privay-content input {
+    margin: 0px 0px 0px -12px;
+}
+
+
 /* active steps  */
+
 .steps-container #step1 {
-  display: block;
+    display: block;
 }
+
 .steps-container #step2 {
-  display: none;
+    display: none;
 }
+
 .steps-container #step3 {
-  display: none;
+    display: none;
 }
+
 .steps-container #step4 {
-  display: none;
+    display: none;
 }
