@@ -75,6 +75,9 @@
   height: fit-content;
 }
 /* width */
+.w-20px{
+  width: 20px;
+}
 .w-5per {
   width: 5%;
 }
