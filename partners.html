@@ -17,9 +17,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="w-full overflow-hidden">
     <!-- section1 and 2 starts from here -->
     <div>
         <div class="section1-container pt-3 pb-5">
@@ -52,7 +54,7 @@
                         </div>
                     </div>
                     <!-- right side -->
-                    <div class="d-flex right-side">
+                    <div class="d-flex right-side" >
                         <div class="px-3 d-none d-lg-block d-xl-block">
                             <button class="active-button px-4 py-2 br-radius7">
                   Get Free quote
@@ -132,7 +134,8 @@
                 py-2 py-lg-5 py-xl-5
                 px-0
               "
-            >
+              data-aos="fade-up"
+              >
               <div>
                 <!-- title -->
                 <h2 class="font-weight-bold dark-blue fs-40">
@@ -293,7 +296,9 @@
                 d-flex
                 px-0
                 justify-content-center
-              ">
+              "
+              data-aos="fade-down"
+              >
         <img src="./assets/images/partner-s1.png" class="w-100" alt="" />
     </div>
     </div>
@@ -301,7 +306,7 @@
     </div>
     <!-- section2-contaienr -->
     <div class="container py-2 px-2 position-relative section2-partner-container">
-        <div class="bg-white box-shadow br-radius24">
+        <div class="bg-white box-shadow br-radius24" data-aos="fade-up">
             <div class="py-4 px-3 company-deals">
                 <!-- title -->
                 <div class="title-container d-flex justify-content-center">
@@ -368,7 +373,7 @@
           justify-content-lg-around justify-content-xl-around
         ">
             <!-- left side  -->
-            <div class="left-side-description col-12 col-lg-4 col-xl-4">
+            <div class="left-side-description col-12 col-lg-4 col-xl-4" data-aos="fade-left">
                 <div class="
               d-flex
               flex-column flex-lg-row flex-xl-row
@@ -394,7 +399,7 @@
                 </div>
             </div>
             <!-- right side -->
-            <div class="right-side-description col-12 col-lg-7 col-xl-7">
+            <div class="right-side-description col-12 col-lg-7 col-xl-7" data-aos="fade-right">
                 <!-- 1st row -->
                 <div class="
               d-flex
@@ -644,21 +649,21 @@
             <div class="d-flex flex-column align-items-center col-1">
                 <hr class="bg-primary col-8 hr-common-padding br-radius7" />
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center" data-aos="fade-up">
                 <div class="col-12 col-lg-9 col-xl-9 main-title">
                     <h3 class="text-center font-weight-400">
                         Acquiring customers has never been easier
                     </h3>
                 </div>
             </div>
-            <div class="content pt-2 px-1 d-flex justify-content-center">
+            <div class="content pt-2 px-1 d-flex justify-content-center" data-aos="fade-up">
                 <div class="col-12 col-lg-8 col-xl-8">
                     <p class="fs-18 text-center font-weight-500">
                         Watch the video below and gain insight into how you can grow your business through quality leads.
                     </p>
                 </div>
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center" data-aos="fade-up">
                 <div class="col-12 d-flex justify-content-center">
                     <img src="./assets/images/NoPath@3x.png" alt="" class="w-100" />
                 </div>
@@ -666,14 +671,14 @@
         </div>
     </div>
     <!-- section5 starts from here -->
-    <div class="container pt-4 pb-3 profile-description-container">
+    <div class="container pt-4 pb-3 profile-description-container" >
         <div>
-            <h4 class="text-center fs-38 font-weight-400">Contact us</h4>
+            <h4 class="text-center fs-38 font-weight-400" data-aos="fade-up">Contact us</h4>
         </div>
         <div class="py-2">
             <div class="d-flex flex-wrap justify-content-around py-5">
                 <!-- 1st box -->
-                <div class="col-10 col-lg-3 col-xl-3 common-box max-h-200px">
+                <div class="col-10 col-lg-3 col-xl-3 common-box max-h-200px" data-aos="fade-up">
                     <div class="d-flex justify-content-center h-50">
                         <img src="./assets/images/Group39186@3x.png" alt="" class="h-90px" />
                     </div>
@@ -687,7 +692,7 @@
                     </div>
                 </div>
                 <!-- 2nd box -->
-                <div class="col-10 col-lg-3 col-xl-3 common-box max-h-200px">
+                <div class="col-10 col-lg-3 col-xl-3 common-box max-h-200px" data-aos="fade-up">
                     <div class="d-flex justify-content-center h-50 align-items-center">
                         <img src="./assets/images/Group39187@3x.png" alt="" class="h-40px" />
                     </div>
@@ -701,7 +706,7 @@
                     </div>
                 </div>
                 <!-- 3rd box -->
-                <div class="col-10 col-lg-3 col-xl-3 common-box max-h-200px">
+                <div class="col-10 col-lg-3 col-xl-3 common-box max-h-200px" data-aos="fade-up">
                     <div class="d-flex justify-content-center h-50 align-items-center">
                         <img src="./assets/images/telephone@3x.png" alt="" class="h-40px" />
                     </div>
@@ -721,7 +726,7 @@
     <div class="container profile-description-container py-5">
         <div class="d-flex flex-column align-items-center">
             <hr class="bg-primary w-5per br-radius7 hr-common-padding" />
-            <h6 class="fs-38 font-weight-400">The numbers speak for us</h6>
+            <h6 class="fs-38 font-weight-400" data-aos="fade-up">The numbers speak for us</h6>
         </div>
         <div class="py-5">
             <div class="d-flex flex-wrap justify-content-around py-5">
@@ -737,7 +742,7 @@
                 py-4
                 px-3
                 min-h-305px
-              ">
+              " data-aos="fade-up">
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="img-container">
                                 <img src="./assets/images/Path7607.png" alt="" class="h-55px" />
@@ -760,7 +765,7 @@
               col-10 col-lg-3 col-xl-3
               px-1 px-lg-3 px-xl-3
               py-2 py-lg-0 py-xl-0
-            ">
+            " data-aos="fade-up">
                     <div class="
                 profile-description-container
                 common-box
@@ -795,7 +800,7 @@
                 py-4
                 px-3
                 min-h-305px
-              ">
+              " data-aos="fade-up">
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="img-container3">
                                 <img src="./assets/images/diagram.png" alt="" class="h-55px" />
@@ -823,7 +828,7 @@
                 py-4
                 px-3
                 min-h-305px
-              ">
+              " data-aos="fade-up">
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="img-container4">
                                 <img src="./assets/images/person.png" alt="" class="h-55px" />
@@ -851,10 +856,10 @@
         </div>
         <div class="d-flex justify-content-center title">
             <div class="col-12 col-lg-10 col-xl-10">
-                <h5 class="fs-38 py-3 text-center font-weight-400">
+                <h5 class="fs-38 py-3 text-center font-weight-400" data-aos="fade-up">
                     A measurable marketing platform for accountants, accountants and lawyers
                 </h5>
-                <p class="text-center py-2 fs-18 font-weight-500 px-2 px-lg-4 px-xl-4">
+                <p class="text-center py-2 fs-18 font-weight-500 px-2 px-lg-4 px-xl-4" data-aos="fade-up">
                     With a marketing platform, you can develop your business in the direction you want - with results that make a difference
                 </p>
             </div>
@@ -877,11 +882,11 @@
           ">
                 <!-- left side -->
                 <div class="col-12 col-lg-5 col-xl-5 accounts-images-container">
-                    <img src="./assets/images/Group39061@3x.png" alt="" />
+                    <img src="./assets/images/Group39061@3x.png" alt="" data-aos="fade-right"/>
                 </div>
                 <!-- right side -->
                 <div class="col-12 col-lg-5 col-xl-5 d-flex align-items-center">
-                    <div>
+                    <div data-aos="fade-left">
                         <h5 class="font-weight-400 fs-32">Get the leads you want</h5>
                         <div class="py-3 d-flex justify-content-start">
                             <hr class="bg-primary col-2 m-0 hr-common-padding br-radius7" />
@@ -913,7 +918,7 @@
           ">
                 <!-- left side -->
                 <div class="col-12 col-lg-5 col-xl-5 d-flex align-items-center px-0">
-                    <div>
+                    <div data-aos="fade-right">
                         <h5 class="font-weight-400 fs-32">Measure your success</h5>
                         <div class="py-3 d-flex justify-content-start">
                             <hr class="bg-darkblue2 col-2 m-0 hr-common-padding br-radius7" />
@@ -925,7 +930,7 @@
                 </div>
                 <!-- right side -->
                 <div class="col-12 col-lg-5 col-xl-5 px-0 accounts-images-container">
-                    <img src="./assets/images/Group38862@3x.png" alt="" />
+                    <img src="./assets/images/Group38862@3x.png" alt="" data-aos="fade-left"/>
                 </div>
             </div>
         </div>
@@ -944,11 +949,11 @@
           ">
                 <!-- left side -->
                 <div class="col-12 col-lg-5 col-xl-5 accounts-images-container">
-                    <img src="./assets/images/Group39043@3x.png" alt="" />
+                    <img src="./assets/images/Group39043@3x.png" alt="" data-aos="fade-right"/>
                 </div>
                 <!-- right side -->
                 <div class="col-12 col-lg-5 col-xl-5 d-flex align-items-center">
-                    <div>
+                    <div data-aos="fade-left">
                         <h5 class="font-weight-400 fs-32">Marketing made easy</h5>
                         <div class="py-3 d-flex justify-content-start">
                             <hr class="bg-darkblue2 col-2 m-0 hr-common-padding br-radius7" />
@@ -971,7 +976,7 @@
         <div class="pt-2 pb-5">
             <div class="d-flex flex-wrap justify-content-around py-5">
                 <!-- 1st box -->
-                <div class="col-10 col-lg-3 col-xl-3 common-box">
+                <div class="col-10 col-lg-3 col-xl-3 common-box" data-aos="fade-up">
                     <div class="d-flex justify-content-center">
                         <img src="./assets/images/phone-call@3x.png" alt="" class="h-50px" />
                     </div>
@@ -982,7 +987,7 @@
                     </div>
                 </div>
                 <!-- 2nd box -->
-                <div class="col-10 col-lg-3 col-xl-3 common-box">
+                <div class="col-10 col-lg-3 col-xl-3 common-box" data-aos="fade-up">
                     <div class="d-flex justify-content-center align-items-center">
                         <img src="./assets/images/Group39192@3x.png" alt="" class="h-50px" />
                     </div>
@@ -993,7 +998,7 @@
                     </div>
                 </div>
                 <!-- 3rd box -->
-                <div class="col-10 col-lg-3 col-xl-3 common-box">
+                <div class="col-10 col-lg-3 col-xl-3 common-box" data-aos="fade-up">
                     <div class="d-flex justify-content-center align-items-center">
                         <img src="./assets/images/Group39191@3x.png" alt="" class="h-50px" />
                     </div>
@@ -1005,7 +1010,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center py-2">
-                <button class="active-button px-2 px-lg-5 px-xl-5 py-3 br-radius40">
+                <button class="active-button px-2 px-lg-5 px-xl-5 py-3 br-radius40" data-aos="fade-up">
             Become Our Partner Today
           </button>
             </div>
@@ -1020,7 +1025,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <div class="col-12 px-0 d-flex flex-column flex-lg-row flex-xl-row pt-5">
                     <!-- left side -->
-                    <div class="col-12 col-lg-6 col-xl-6 py-5">
+                    <div class="col-12 col-lg-6 col-xl-6 py-5" data-aos="fade-right">
                         <!-- title , content-->
                         <div>
                             <div class="
@@ -1028,7 +1033,7 @@
                     justify-content-center
                     justify-content-lg-start
                     justify-content-xl-start
-                  ">
+                  " >
                                 <div>
                                     <img src="./assets/images/q1.png" class="h-20px" />
                                 </div>
@@ -1039,7 +1044,7 @@
                       py-3
                       fs-40
                       main-title-contaienr
-                    ">
+                    " >
                                     Satisfied partners
                                 </h3>
                                 <div class="d-flex align-items-end">
@@ -1063,7 +1068,7 @@
                         </div>
                     </div>
                     <!-- right side -->
-                    <div class="col-12 col-lg-6 col-xl-6 right-sideImage-container">
+                    <div class="col-12 col-lg-6 col-xl-6 right-sideImage-container" data-aos="fade-in">
                         <img src="./assets/images/groupProfile.png" alt="" />
                     </div>
                 </div>
@@ -1081,22 +1086,22 @@
             justify-content-center
           ">
                 <div class="title-content">
-                    <h5 class="text-center font-weight-400 fs-32">
+                    <h5 class="text-center font-weight-400 fs-32" data-aos="fade-up">
                         Your customers are waiting around the corner
                     </h5>
-                    <p class="font-weight-500 m-0 fs-18 text-center">
+                    <p class="font-weight-500 m-0 fs-18 text-center" data-aos="fade-up">
                         See Ageras' live list of customers seeking your help right now
                     </p>
                 </div>
                 <div class="py-5 map-title">
-                    <h1 class="py-4 text-center">MAP</h1>
+                    <h1 class="py-4 text-center" data-aos="fade-up">MAP</h1>
                 </div>
                 <div class="d-flex flex-column align-items-center">
-                    <h4 class="font-weight-bold text-center dark-blue fs-32">
+                    <h4 class="font-weight-bold text-center dark-blue fs-32" data-aos="fade-up">
                         Get access to these leads today!
                     </h4>
                     <div class="py-3">
-                        <button class="px-5 py-3 br-radius20 active-button">
+                        <button class="px-5 py-3 br-radius20 active-button" data-aos="fade-up">
                 Let's talk about your need
               </button>
                     </div>
@@ -1118,7 +1123,7 @@
           justify-content-lg-between justify-content-xl-between
         ">
             <!-- left side -->
-            <div class="col-12 col-lg-5 col-xl-5 left-side z-index-1">
+            <div class="col-12 col-lg-5 col-xl-5 left-side z-index-1" data-aos="fade-right">
                 <div class="
               d-flex
               justify-content-center
@@ -1136,7 +1141,7 @@
                 py-2
                 text-center text-lg-left text-xl-left
                 font-weight-bold
-              ">
+              " >
                         We value our partnerships
                     </h4>
                     <p class="font-weight-400 py-2 fs-18">
@@ -1149,7 +1154,7 @@
                 </div>
             </div>
             <!-- right side -->
-            <div class="col-12 col-lg-6 col-xl-6 right-side-reportImg">
+            <div class="col-12 col-lg-6 col-xl-6 right-side-reportImg" data-aos="fade-down">
                 <img src="./assets/images/img.png" alt="" class="" />
             </div>
         </div>
@@ -1157,14 +1162,14 @@
     <!-- section 12 -->
     <div class="container wide-rangeOptions-container py-5">
         <div class="py-4">
-            <h1 class="text-center dark-blue2 fs-50 font-weight-bold">
+            <h1 class="text-center dark-blue2 fs-50 font-weight-bold" data-aos="fade-up">
                 Wide range of options
             </h1>
-            <p class="text-center">Dive into your options at Ageras</p>
+            <p class="text-center" data-aos="fade-up">Dive into your options at Ageras</p>
         </div>
         <div class="d-flex flex-wrap justify-content-around py-5">
             <!-- box1 -->
-            <div class="common-box px-0 col-12 col-lg-5 col-xl-5 py-5 my-4 px-4 d-flex">
+            <div class="common-box px-0 col-12 col-lg-5 col-xl-5 py-5 my-4 px-4 d-flex" data-aos="fade-right">
                 <!-- left-side  -->
                 <div class="col-3 d-flex justify-content-center">
                     <img src="./assets/images/Group39195@3x.png" alt="" class="h-60px" />
@@ -1178,7 +1183,7 @@
                 </div>
             </div>
             <!-- box2 -->
-            <div class="common-box px-0 col-12 col-lg-5 col-xl-5 py-5 my-4 px-4 d-flex">
+            <div class="common-box px-0 col-12 col-lg-5 col-xl-5 py-5 my-4 px-4 d-flex" data-aos="fade-left">
                 <!-- left-side  -->
                 <div class="col-3 d-flex justify-content-center">
                     <img src="./assets/images/Group39196@3x.png" alt="" class="h-60px" />
@@ -1192,7 +1197,7 @@
                 </div>
             </div>
             <!-- box3 -->
-            <div class="common-box px-0 col-12 col-lg-5 col-xl-5 py-5 my-4 px-4 d-flex">
+            <div class="common-box px-0 col-12 col-lg-5 col-xl-5 py-5 my-4 px-4 d-flex" data-aos="fade-right">
                 <!-- left-side  -->
                 <div class="col-3 d-flex justify-content-center">
                     <img src="./assets/images/Group39198@3x.png" alt="" class="h-60px" />
@@ -1205,8 +1210,8 @@
                     <p class="py-2 primary m-0">Read here ></p>
                 </div>
             </div>
-            <!-- box4 -->
-            <div class="common-box px-0 col-12 col-lg-5 col-xl-5 py-5 my-4 px-4 d-flex">
+            <!-- box4 --> 
+            <div class="common-box px-0 col-12 col-lg-5 col-xl-5 py-5 my-4 px-4 d-flex" data-aos="fade-left">
                 <!-- left-side  -->
                 <div class="col-3 d-flex justify-content-center">
                     <img src="./assets/images/Group39197@3x.png" alt="" class="h-60px" />
@@ -1228,20 +1233,20 @@
                 <img src="./assets/images/Path8691.png" alt="" class="w-60per z-index-1" />
             </div>
             <div>
-                <h1 class="py-2 m-0 dark-blue2 font-weight-bold fs-50 text-center">
+                <h1 class="py-2 m-0 dark-blue2 font-weight-bold fs-50 text-center" data-aos="fade-up">
                     Frequently Ask Questions
                 </h1>
-                <p class="m-0 text-center py-4 dark-blue2 font-weight-bold fs-14">
+                <p class="m-0 text-center py-4 dark-blue2 font-weight-bold fs-14" data-aos="fade-up">
                     Here you can get answers to the most frequently asked questions that we receive in
                     <span class="text-primary">Ageras Read more here ></span>
                 </p>
             </div>
             <!-- collapse -->
             <div class="d-flex justify-content-center pt-5">
-                <div id="accordion" class="col-12 col-lg-9 col-xl-9 px-0">
+                <div id="accordion" class="col-12 col-lg-9 col-xl-9 px-0" > 
                     <div class="card common-bottom-border">
                         <div class="card-header px-0" id="headingone">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0" data-aos="fade-right">
                                 <button class="
                       btn btn-link
                       collapsed
@@ -1254,7 +1259,7 @@
                       alt=""
                       class="h-15px"
                     />
-                    <span class="px-3">Question number 01 goes in here?</span>
+                    <span class="px-3" >Question number 01 goes in here?</span>
                   </button>
                             </h5>
                         </div>
@@ -1266,7 +1271,7 @@
                     </div>
                     <div class="card common-bottom-border">
                         <div class="card-header px-0" id="headingTwo">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0" data-aos="fade-right">
                                 <button class="
                       btn btn-link
                       collapsed
@@ -1291,7 +1296,7 @@
                     </div>
                     <div class="card common-bottom-border">
                         <div class="card-header px-0" id="headingThree">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0" data-aos="fade-right">
                                 <button class="
                       btn btn-link
                       px-0
@@ -1316,7 +1321,7 @@
                     </div>
                     <div class="card common-bottom-border">
                         <div class="card-header px-0" id="headingfour">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0" data-aos="fade-right">
                                 <button class="
                       btn btn-link
                       px-0
@@ -1341,7 +1346,7 @@
                     </div>
                     <div class="card common-bottom-border">
                         <div class="card-header px-0" id="headingfour">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0" data-aos="fade-right">
                                 <button class="
                       btn btn-link
                       px-0
@@ -1366,7 +1371,7 @@
                     </div>
                     <div class="card common-bottom-border">
                         <div class="card-header px-0" id="headingfive">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0" data-aos="fade-right">
                                 <button class="
                       btn btn-link
                       px-0
@@ -1391,7 +1396,7 @@
                     </div>
                     <div class="card common-bottom-border">
                         <div class="card-header px-0" id="headingsix">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0" data-aos="fade-right">
                                 <button class="
                       btn btn-link
                       px-0
@@ -1416,7 +1421,7 @@
                     </div>
                     <div class="card">
                         <div class="card-header px-0" id="headingsix">
-                            <h5 class="mb-0">
+                            <h5 class="mb-0" data-aos="fade-right">
                                 <button class="
                       btn btn-link
                       px-0
@@ -1458,7 +1463,7 @@
                 fs-32
                 dark-blue2
                 text-lg-left text-xl-left text-center
-              ">
+              " data-aos="fade-in">
                         Revimatch has mediated over 60,000 assignments, see what our customers say.
                     </h2>
                 </div>
@@ -1479,7 +1484,7 @@
                   px-2 px-lg-3 px-xl-3
                   outline-none
                   fs-16
-                " value="WHAT IS YOUR NAME?" />
+                " value="WHAT IS YOUR NAME?" data-aos="fade-in"/>
                     </div>
                     <div class="px-0 box-shadow">
                         <button class="active-button fs-16 m-0 h-100 px-2 px-lg-3 px-xl-3 py-4">
@@ -1496,7 +1501,7 @@
             align-items-end
             right-side-container
           ">
-                <img src="./assets/images/Group39211.png" alt="" />
+                <img src="./assets/images/Group39211.png" alt="" data-aos="zoom-in"/>
             </div>
         </div>
     </div>
@@ -1507,11 +1512,11 @@
                 <img src="./assets/images/Group38381@3x.png" alt="" class="w-100 position-absolute" />
             </div>
             <div class="d-flex flex-column align-items-center py-5">
-                <h4 class="font-weight-bold text-center dark-blue fs-32">
+                <h4 class="font-weight-bold text-center dark-blue fs-32" data-aos="fade-down">
                     Are you ready to become our partner?
                 </h4>
                 <div class="py-3">
-                    <button class="px-5 py-3 br-radius12 active-button">
+                    <button class="px-5 py-3 br-radius12 active-button" data-aos="fade-up">
               Become our partner here
             </button>
                 </div>
@@ -1519,7 +1524,7 @@
         </div>
     </div>
     <!-- footer starts from here -->
-    <div class="footer-container py-5">
+    <div class="footer-container py-5" data-aos="fade-up">
         <div class="container px-2 py-5">
             <!-- lists -->
             <div class="
@@ -2110,8 +2115,19 @@
       </div>
     </div>
   </div>
+  </div>
     <!-- modal ends here -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+           AOS.init({
+                    duration:1500
+                });
+                let scrollRef = 0;
+
+window.addEventListener('scroll', function() {
+  // increase value up to 10, then refresh AOS
+  scrollRef <= 10 ? scrollRef++ : AOS.refresh();
+});
       function openNav() {
         document.getElementById("mySidenav").classList.add("active");
       }
@@ -2178,5 +2194,6 @@
         }
       }
     </script>
+           
   </body>
 </html>
